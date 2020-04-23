@@ -2,7 +2,7 @@
   "name": "ev3everywhere.github.io",
   "version": "1.0.0",
   "description": "EV3 everywhere website",
-  "main": "index.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib"
   },
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/ev3everywhere/ev3everywhere.github.io.git"
   },
   "author": "Nilesh Pai, Sameer Parameshwar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ev3everywhere/ev3everywhere.github.io/issues"
   },
