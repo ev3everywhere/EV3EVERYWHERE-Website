@@ -13,10 +13,35 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:400;
 }
 
+p {
+    font-family: proxima-nova, sans-serif;
+}
+
 
 #about {
     background:#f5f5f5;
 }
+
+
+
+#about .about-container .title {
+    text-align: center;
+    font-size:75px;
+    color: black;
+}
+
+#about h3 {
+    font-size:45px;
+    text-align: left;
+    color: black;
+}
+
+#about p {
+    color: black;
+    font-size: 30px;
+}
+
+
 
 
 
