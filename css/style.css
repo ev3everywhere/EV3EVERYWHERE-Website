@@ -1,5 +1,5 @@
 body {
-    background: #343434;
+    background: #282828;
     color: #666666;
     font-family: proxima-nova,
     sans-serif;
@@ -7,82 +7,10 @@ body {
     font-weight: 100;
 }
 
-#team {
-    background:black;
-    padding: 80px 0 60px 0;
-    font-family: ibm-plex-sans, sans-serif;
+#about {
+    background:#f5f5f5;
+    font-family: ibm-plex-sans, proxima-nova;
     font-weight: 700;
     font-style: normal;
-}
-#team .row {
-    justify-content: center;
-}
-#team .member {
-    text-align: center;
-}
-
-#team .member .pic {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    overflow: hidden;
-    height: 260px;
-}
-
-#team .member .pic img {
-    max-width: 100%;
-}
-
-#team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-}
-
-#team .member span {
-    font-style: italic;
-    display: block;
-    /*font-size: 13px;*/
-}
-
-#team .member .social {
-    margin-top: 15px;
-}
-
-#team .member .social a {
-    color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-    color: #2dc997;
-}
-
-#team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
-#team .lightblue {
-    background-color: #ABFEFE ;
-    border-radius: 3%;
-    margin-bottom: 1%;
-    border-width:3%;   
-    margin: 1%;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-#team .darker {
-    background-color: #505050 ;
-    color: white;
-    border-radius: 3%;
-    margin-bottom: 1%;
-    margin: 1%;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-    
 }
 
