@@ -22,12 +22,11 @@ p {
     background:#f5f5f5;
 }
 
-
-
-#about .about-container .title {
+#about  .title {
     text-align: center;
-    font-size:75px;
     color: black;
+    font-size: 75px;
+    
 }
 
 #about h3 {
