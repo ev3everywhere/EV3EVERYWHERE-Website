@@ -58,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .nav-text {
     font-size: calc(12px + .5vw);
-    padding: 0 8px 10px 8px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
