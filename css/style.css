@@ -72,7 +72,7 @@ h6 {
     outline: none;
 }
 
-.navbar a:before {
+.navbar .underline:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -85,20 +85,20 @@ h6 {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before,
-.nav-active>a:before {
+.navbar .underline:hover:before,
+.nav-active>.underline:before {
     visibility: visible;
     transform: scaleX(1);
 }
 
-.navbar a {
-    color: #333;
+.navbar .underline {
+    color: #fff;
     transition: 0.3s;
     display: block;
     text-transform: none;
 }
 
-.navbar a:hover {
+.navbar .underline:hover {
     color: #c9fffe
 }
 
