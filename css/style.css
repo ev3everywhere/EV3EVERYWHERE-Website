@@ -124,7 +124,7 @@ h6 {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
-    font-size: calc(12px + .5vw);
+    transition: 0.3s;
     outline: none;
 }
 
@@ -152,35 +152,8 @@ h6 {
     transform: scaleX(1);
 }
 
-.navbar-nav ul {
-    margin: 4px 0 0 0;
-    border: 1px solid #c9fffe;
-}
-
-.navbar-nav ul li {
-    background: #c9fffe;
-}
-
-.navbar-nav ul li:first-child {
-    border-top: 0;
-}
-
-.navbar-nav ul li a {
-    padding: 10px;
-    color: #c9fffe;
-    transition: 0.3s;
-    display: block;
-    font-size: 13px;
-    text-transform: none;
-}
-
-.navbar-nav ul li a:hover {
-    background: #c9fffe;
-    color: #c9fffe;
-}
-
-.navbar-nav ul ul {
-    margin: 0;
+.navbar a:hover {
+    color: #c9fffe
 }
 
 .navbar .nav-text {
@@ -194,7 +167,7 @@ h6 {
 .navbar .btn-default {
     color: #fff;
     line-height: 20px;
-    border: 2px solid #c9fffe;
+    border: 2px solid #336666;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
@@ -203,7 +176,6 @@ h6 {
 .navbar .btn-default:hover {
     color: #FFF;
     background: #336666;
-    border: 2px solid #336666;
 }
 
 
