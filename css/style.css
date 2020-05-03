@@ -2,10 +2,11 @@ body {
     background: #282828;
     color: #666666;
     font-family: proxima-nova,
-    sans-serif;
+        sans-serif;
     font-style: normal;
     font-weight: 400;
 }
+
 a {
     color: #abfffe;
 }
@@ -22,14 +23,19 @@ p {
     font-family: proxima-nova, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: ibm-plex-sans, sans-serif;
     font-style: normal;
-    font-weight:400;
+    font-weight: 400;
 }
 
 .row {
-    padding :0;
+    padding: 0;
     margin: 0;
     border: 0;
     width: 100%;
@@ -41,7 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header img {
     height: auto;
-    width: 25vw;
+    width: 15vw;
+    transition: all 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -63,33 +70,55 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-transform: uppercase;
     outline: none;
-    }
-    .navbar a:before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: #c9fffe;
-        visibility: hidden;
-        transform: scaleX(0);
-        transition: all 0.3s ease-in-out 0s;
-    }
-    .navbar a:hover:before,.nav-active>a:before {
-        visibility: visible;
-        transform: scaleX(1);
-    }
-    .navbar a{
-        padding: 10px;
-        color: #333;
-        transition: 0.3s;
-        display: block;
-        text-transform: none;
-    }
-    .navbar a:hover{
-        color: #c9fffe
-    }
+}
+
+.navbar a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #c9fffe;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover:before,
+.nav-active>a:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.navbar a {
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    text-transform: none;
+}
+
+.navbar a:hover {
+    color: #c9fffe
+}
+
+.navbar .btn-default {
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #336666;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar .btn-default:hover {
+    color: #FFF;
+    background: #336666;
+    border: 2px solid #336666;
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -125,15 +154,16 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     display: flex;
     align-items: center;
-    text-align:  center;
+    text-align: center;
     justify-content: center;
 }
 
 #hero h1 {
     margin: 30px 0 10px 0;
-    padding: 10px;;
+    padding: 10px;
+    ;
     font-size: 5vw;
- 
+
     text-transform: uppercase;
     color: #f5f5f5;
 }
@@ -143,13 +173,13 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-    background:#f5f5f5;
+    background: #f5f5f5;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
 }
 
-#about  .about-title {
+#about .about-title {
     text-align: center;
     justify-content: center;
     color: black;
@@ -159,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-#about .about-h3 { 
+#about .about-h3 {
     text-align: left;
     color: black;
     font-weight: 800;
@@ -188,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 5%;
 }
 
-#impact  .impact-title {
+#impact .impact-title {
     text-align: center;
     justify-content: center;
     color: #f5f5f5;
@@ -211,5 +241,3 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.85vw;
     font-size: calc(20px + .75vw);
 }
-
-
