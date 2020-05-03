@@ -1,3 +1,6 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
     background: #282828;
     color: #666666;
@@ -69,6 +72,7 @@ h6 {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
+    transition: 0.3s;
     outline: none;
 }
 
@@ -91,21 +95,13 @@ h6 {
     transform: scaleX(1);
 }
 
-.navbar a {
-    color: #333;
-    transition: 0.3s;
-    display: block;
-    text-transform: none;
-}
-
 .navbar a:hover {
     color: #c9fffe
 }
 
 .navbar .btn-default {
     color: #fff;
-    letter-spacing: 1px;
-    line-height: 15px;
+    line-height: 20px;
     border: 2px solid #336666;
     border-radius: 40px;
     background: transparent;
@@ -115,7 +111,6 @@ h6 {
 .navbar .btn-default:hover {
     color: #FFF;
     background: #336666;
-    border: 2px solid #336666;
 }
 
 
