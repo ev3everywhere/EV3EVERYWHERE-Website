@@ -252,7 +252,7 @@ h6 {
     text-align: left;
     color: black;
     font-weight: 800;
-
+    
     font-size: calc(20px + .5vw);
 }
 
@@ -282,8 +282,7 @@ h6 {
     justify-content: center;
     color: #f5f5f5;
     padding: 2%;
-    font-weight: 600;
-    font-size: calc(25px + .75vw);
+    font-size: calc(35px + .75vw);
 }
 
 #impact .impact-h3 {
@@ -306,7 +305,7 @@ h6 {
 --------------------------------------------------------------*/
 #join-us {
     background:linear-gradient(rgba(43, 33, 20, 0.65), rgba(43, 33, 20, 0.65)),
-    url(../img/1x/ju-image.png) fixed center;
+    url(../img/1x/ju-image.png) fixed center top;
     background-size: cover;
     padding: 80px 0;
 }
@@ -319,12 +318,13 @@ h6 {
 
 #join-us .ju-title {
     color: #fff;
-    font-size: 28px;
+    font-size: calc(28px + .5vw);
     font-weight: 700;
 }
 
 #join-us .ju-text {
     color: #fff;
+    font-size: calc(15px + .5vw);
 }
 
 @media (min-width: 769px) {
@@ -355,8 +355,8 @@ h6 {
 #team {
     background: #f5f5f5;
     color: black;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     padding-bottom: 5%;
 }
 
