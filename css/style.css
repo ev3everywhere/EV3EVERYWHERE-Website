@@ -71,6 +71,32 @@ h6 {
     text-transform: uppercase;
     outline: none;
 }
+.navbar-nav ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+.navbar-nav li {
+    position: relative;
+    white-space: nowrap;
+}
+.navbar-nav>li {
+    float: left;
+    margin-left: 10px;
+}
+.navbar-nav li:hover>ul,
+.navbar-nav li.sfHover>ul {
+    display: block;
+}
+.navbar-nav ul ul {
+    top: 0;
+    left: 100%;
+}
+.navbar-nav ul li {
+    min-width: 180px;
+}
 
 .navbar .underline:before {
     content: "";
