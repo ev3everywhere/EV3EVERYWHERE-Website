@@ -1,3 +1,6 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
     background: #282828;
     color: #666666;
@@ -60,17 +63,18 @@ h6 {
 }
 
 .navbar-default.scrolled {
-    background: #00000090;
+    background: rgba(0, 0, 0, .80);
 }
 
-.navbar .nav-text {
-    font-size: calc(12px + .5vw);
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    text-transform: uppercase;
-    outline: none;
+.navbar-nav,
+.navbar-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    align-items: center;
 }
+
 .navbar-nav ul {
     position: absolute;
     display: none;
@@ -78,27 +82,58 @@ h6 {
     left: 0;
     z-index: 99;
 }
+
 .navbar-nav li {
     position: relative;
     white-space: nowrap;
 }
+
 .navbar-nav>li {
     float: left;
-    margin-left: 10px;
 }
+
 .navbar-nav li:hover>ul,
 .navbar-nav li.sfHover>ul {
     display: block;
 }
+
 .navbar-nav ul ul {
     top: 0;
     left: 100%;
 }
+
 .navbar-nav ul li {
     min-width: 180px;
 }
 
-.navbar .underline:before {
+/* Nav Meu Container */
+#navbar-container {
+    float: right;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #navbar-container {
+        display: none;
+    }
+}
+
+/* Nav Meu Styling */
+.navbar-nav a {
+    padding: 0 8px 10px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: calc(12px + .5vw);
+    outline: none;
+}
+
+.navbar-nav>li {
+    margin-left: 10px;
+}
+
+.navbar-nav>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -111,28 +146,56 @@ h6 {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar .underline:hover:before,
-.nav-active>.underline:before {
+.navbar-nav a:hover:before,
+.navbar-nav li:hover>a:before,
+.navbar-nav .menu-active>a:before {
     visibility: visible;
     transform: scaleX(1);
 }
 
-.navbar .underline {
-    color: #fff;
+.navbar-nav ul {
+    margin: 4px 0 0 0;
+    border: 1px solid #c9fffe;
+}
+
+.navbar-nav ul li {
+    background: #c9fffe;
+}
+
+.navbar-nav ul li:first-child {
+    border-top: 0;
+}
+
+.navbar-nav ul li a {
+    /* padding: 10px; */
+    color: #c9fffe;
     transition: 0.3s;
     display: block;
+    font-size: 13px;
     text-transform: none;
 }
 
-.navbar .underline:hover {
-    color: #c9fffe
+.navbar-nav ul li a:hover {
+    background: #c9fffe;
+    color: #c9fffe;
 }
 
+.navbar-nav ul ul {
+    margin: 0;
+}
+
+.navbar .nav-text {
+    font-size: calc(12px + .5vw);
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+}
 .navbar .btn-default {
     color: #fff;
-    letter-spacing: 1px;
-    line-height: 15px;
-    border: 2px solid #336666;
+    line-height: 20px;
+    border: 2px solid #c9fffe;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
@@ -163,8 +226,8 @@ h6 {
 }
 
 #hero:before {
-    content: "";
-    /* background: rgba(0, 0, 0, 0.6); */
+
+
     position: absolute;
     bottom: 0;
     top: 0;
@@ -187,8 +250,8 @@ h6 {
 #hero h1 {
     margin: 30px 0 10px 0;
     padding: 10px;
-    ;
-    font-size: 5vw;
+
+    font-size: calc(55px + 1.25vw);
 
     text-transform: uppercase;
     color: #f5f5f5;
@@ -200,8 +263,8 @@ h6 {
 --------------------------------------------------------------*/
 #about {
     background: #f5f5f5;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     padding-bottom: 5%;
 }
 
@@ -210,6 +273,7 @@ h6 {
     justify-content: center;
     color: black;
     padding: 2%;
+    font-weight: 600;
     font-size: calc(25px + .75vw);
 }
 
@@ -219,13 +283,13 @@ h6 {
     text-align: left;
     color: black;
     font-weight: 800;
-    font-size: 1.85vw;
-    font-size: calc(12px + .5vw);
+
+    font-size: calc(20px + .5vw);
 }
 
 #about .about-p {
     color: black;
-    font-size: calc(10px + .5vw);
+    font-size: calc(15px + .5vw);
 }
 
 #about .about-img {
@@ -239,8 +303,8 @@ h6 {
 
 #impact {
     background: #282828;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     padding-bottom: 5%;
 }
 
@@ -249,13 +313,14 @@ h6 {
     justify-content: center;
     color: #f5f5f5;
     padding: 2%;
+    font-weight: 600;
     font-size: calc(25px + .75vw);
 }
 
 #impact .impact-h3 {
     text-align: center;
     color: #f5f5f5;
-    font-weight: 400;
+    font-weight: 450;
     font-size: 1.85vw;
     font-size: calc(12px + .5vw);
 }
@@ -266,4 +331,90 @@ h6 {
     font-weight: 400;
     font-size: 1.85vw;
     font-size: calc(20px + .75vw);
+}
+
+/*--------------------------------------------------------------
+# Join Us Section
+--------------------------------------------------------------*/
+#join-us {
+    background: linear-gradient(rgba(43, 33, 20, 0.65), rgba(43, 33, 20, 0.65)),
+        url(../img/1x/ju-image.png) fixed center top;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+@media (max-width: 1024px) {
+    #join-us {
+        background-attachment: scroll;
+    }
+}
+
+#join-us .ju-title {
+    color: #fff;
+    font-size: calc(28px + .5vw);
+    font-weight: 700;
+}
+
+#join-us .ju-text {
+    color: #fff;
+    font-size: calc(15px + .5vw);
+}
+
+@media (min-width: 769px) {
+    #join-us .ju-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        min-width: 150px;
+    }
+}
+
+#join-us .btn-default {
+    color: #fff;
+    line-height: 20px;
+    border: 2px solid #c9fffe;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+#join-us .btn-default:hover {
+    color: #FFF;
+    background: #336666;
+    border: 2px solid #336666;
+}
+
+
+/*--------------------------------------------------------------
+# Team section
+--------------------------------------------------------------*/
+
+#team {
+    background: #f5f5f5;
+    color: black;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
+
+#team .team-title {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(25px + .75vw);
+}
+
+#team img {
+    width: 90%;
+    height: auto;
+}
+
+#team .team-h3 {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    font-size: 1.85vw;
+    font-size: calc(12px + .5vw);
 }
