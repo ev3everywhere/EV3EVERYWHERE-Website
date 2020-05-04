@@ -68,18 +68,19 @@ h6 {
 
 .navbar-nav,
 .navbar-nav * {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   display: block;
+    margin: 0;
+    padding: 0;
+    list-style: inside ;
+    display: block;
 }
 
 .navbar-nav ul {
     position: absolute;
     display: none;
-    top: 100%;
-    left: 0;
+    top: auto;+
     z-index: 99;
+    justify-content: right;
+    align-items: flex-end;
 }
 
 .navbar-nav li {
@@ -153,7 +154,7 @@ h6 {
 
 .navbar-nav a:hover:before,
 .navbar-nav li:hover>a:before,
-.navbar-nav .active>a:before {
+.navbar-nav .menu-active>a:before {
     visibility: visible;
     
     transform: scaleX(1);
@@ -173,7 +174,7 @@ h6 {
 }
 
 .navbar-nav ul li a {
-    padding: 10px;
+    /* padding: 10px; */
     color: #c9fffe;
     transition: 0.3s;
     display: block;
