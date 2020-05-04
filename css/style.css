@@ -196,8 +196,8 @@ h6 {
 }
 
 #hero:before {
-
-
+  
+    
     position: absolute;
     bottom: 0;
     top: 0;
@@ -219,8 +219,8 @@ h6 {
 
 #hero h1 {
     margin: 30px 0 10px 0;
-    padding: 5vh;
-
+    padding: 10px;
+    
     font-size: calc(55px + 1.25vw);
 
     text-transform: uppercase;
