@@ -89,8 +89,7 @@ h6 {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before,
-.nav-active>a:before {
+.navbar a:hover:before, x.nav-active>a:before {
     visibility: visible;
     transform: scaleX(1);
 }
@@ -236,9 +235,12 @@ h6 {
     font-size: 1.85vw;
     font-size: calc(20px + .75vw);
 }
+/*--------------------------------------------------------------
+# Team section
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Put team section
+# Team section
 --------------------------------------------------------------*/
 
 #team {
