@@ -1,1 +1,1 @@
-ev3everywhere.github.io
+ev3everywhere.com
