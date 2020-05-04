@@ -72,20 +72,25 @@ h6 {
     padding: 0;
     list-style: inside ;
     display: block;
+    justify-self: center;
 }
 
 .navbar-nav ul {
     position: absolute;
     display: none;
-    top: auto;+
+    top: 100%;
+    left: 0;
     z-index: 99;
-    justify-content: right;
-    align-items: flex-end;
+    
 }
 
 .navbar-nav li {
     position: relative;
     white-space: nowrap;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .navbar-nav>li {
@@ -110,6 +115,8 @@ h6 {
 #navbar-container {
     float: right;
     margin: 0;
+    
+    
 }
 
 @media (max-width: 768px) {
@@ -148,8 +155,9 @@ h6 {
 
 .navbar-nav a:hover:before,
 .navbar-nav li:hover>a:before,
-.navbar-nav .menu-active>a:before {
+.navbar-nav .active>a:before {
     visibility: visible;
+    
     transform: scaleX(1);
 }
 
@@ -196,6 +204,7 @@ h6 {
     color: #fff;
     line-height: 20px;
     border: 2px solid #c9fffe;
+    padding: 10px;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
