@@ -179,6 +179,7 @@ h6 {
     justify-content: center;
     color: black;
     padding: 2%;
+    font-weight: 600;
     font-size: calc(25px + .75vw);
 }
 
@@ -218,13 +219,14 @@ h6 {
     justify-content: center;
     color: #f5f5f5;
     padding: 2%;
-    font-size: calc(35px + .75vw);
+    font-weight: 600;
+    font-size: calc(25px + .75vw);
 }
 
 #impact .impact-h3 {
     text-align: center;
     color: #f5f5f5;
-    font-weight: 400;
+    font-weight: 450;
     font-size: 1.85vw;
     font-size: calc(12px + .5vw);
 }
@@ -268,6 +270,7 @@ h6 {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        min-width: 150px;
     }
 }
 
@@ -285,6 +288,8 @@ h6 {
     background: #336666;
     border: 2px solid #336666;
 }
+
+
 /*--------------------------------------------------------------
 # Team section
 --------------------------------------------------------------*/
@@ -302,6 +307,7 @@ h6 {
     justify-content: center;
     color: black;
     padding: 2%;
+    font-weight: 600;
     font-size: calc(25px + .75vw);
 }
 
