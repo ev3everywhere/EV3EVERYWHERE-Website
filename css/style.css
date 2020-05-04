@@ -110,6 +110,7 @@ h6 {
 .navbar .btn-default:hover {
     color: #FFF;
     background: #336666;
+    border: 2px solid #336666;
 }
 
 
@@ -281,6 +282,7 @@ h6 {
 #join-us .btn-default:hover {
     color: #FFF;
     background: #336666;
+    border: 2px solid #336666;
 }
 /*--------------------------------------------------------------
 # Team section
