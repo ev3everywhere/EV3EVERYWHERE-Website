@@ -236,7 +236,7 @@ h6 {
     font-size: calc(20px + .75vw);
 }
 /*--------------------------------------------------------------
-# join Section
+# Join Us Section
 --------------------------------------------------------------*/
 #join-us {
     background:linear-gradient(rgba(43, 33, 20, 0.65), rgba(43, 33, 20, 0.65)),
@@ -314,3 +314,5 @@ h6 {
     font-size: 1.85vw;
     font-size: calc(12px + .5vw);
 }
+
+
