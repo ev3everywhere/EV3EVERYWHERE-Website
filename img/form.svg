@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="524" viewBox="0 0 450 524">
+  <g id="form" transform="translate(-46.443)">
+    <path id="Path_253" data-name="Path 253" d="M46.443,0V524h450V0Zm417.79,493.3H78.654V30.7h96.515v71.981h192.55V30.7h96.514ZM335.508,30.7V71.981H207.379V30.7Z"/>
+    <path id="Path_254" data-name="Path 254" d="M194.832,155.667H378.667v30H194.832Z" transform="translate(19.48 3.876)"/>
+    <path id="Path_255" data-name="Path 255" d="M133.333,155.667h31.5v30h-31.5Z" transform="translate(6.924 3.876)"/>
+    <path id="Path_256" data-name="Path 256" d="M194.832,219.667H378.667v30H194.832Z" transform="translate(19.48 5.469)"/>
+    <path id="Path_257" data-name="Path 257" d="M133.333,219.667h31.5v30h-31.5Z" transform="translate(6.924 5.469)"/>
+    <path id="Path_258" data-name="Path 258" d="M133.333,283.667h31.5v30h-31.5Z" transform="translate(6.924 7.062)"/>
+    <path id="Path_259" data-name="Path 259" d="M194.832,283.667H378.667v30H194.832Z" transform="translate(19.48 7.062)"/>
+    <path id="Path_260" data-name="Path 260" d="M133.333,379.667h80v30h-80Z" transform="translate(7.914 9.452)"/>
+    <path id="Path_261" data-name="Path 261" d="M311.488,401.2,283.656,376.6l-27.6,24.4L311.488,450l83.179-73.542-27.595-24.4Z" transform="translate(13.974 -7.617)"/>
+  </g>
+</svg>
