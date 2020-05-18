@@ -39,6 +39,48 @@
 }
 
 /*--------------------------------------------------------------
+# Registerxxxx Section
+--------------------------------------------------------------*/
+#mentor {
+    background: #f5f5f5;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+}
+
+#mentor .mentor-title {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(50px + .75vw);
+}
+
+
+
+#mentor .mentor-h3 {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    
+    font-size: calc(35px + .75vw);
+}
+
+#mentor .mentor-p {
+    color: black;
+    font-size: calc(25px + .5vw);
+}
+
+#mentor .mentor-img {
+    justify-self: center;
+    width: 60%;
+    height: auto;
+}
+
+/*--------------------------------------------------------------
 # Attend Section
 --------------------------------------------------------------*/
 #attend {
@@ -70,11 +112,14 @@
     height: auto;
     width: 70%; 
 }
+
+
+
 /*--------------------------------------------------------------
 # FAQ Section
 --------------------------------------------------------------*/
 #faq{
-    background-color: #f5f5f5;
+    background-color: #282828;
     padding-top: 1%;
     padding-left: 5%;
     padding-right: 5%;
@@ -86,23 +131,24 @@
     text-align: center;
     font-weight: 800;
     font-size: 2.5rem;
-    color: #091f2f;
+    color: #f5f5f5;
     text-transform: uppercase;
     padding: 4%;
+    font-size: calc(35px + .75vw);
     
 }
 #faq .accordion-section .panel-default > .panel-heading {
     border: 0;
-    background: #282828;
+    background: #f5f5f5;
     
     padding: 0;
 }
 #faq .accordion-section .panel-default .panel-title a {
     display: block;
     font-style: italic;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: underline solid #c9fffe;
+    font-size: calc(20px + .75vw);
+    color: #282828;
+    text-decoration: underline solid #3E84BD;
     font-family: proxima-nova, sans-serif;
 }
 #faq .accordion-section .panel-default .panel-title a:after {
@@ -118,5 +164,6 @@
     content: "\f107";
 }
 #faq .accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
+    font-size: calc(15px + .5vw);
+    color: white;
 }
