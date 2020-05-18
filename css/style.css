@@ -66,8 +66,60 @@ h6 {
     background: #00000090;
 }
 
-.navbar .nav-text {
-    font-size: calc(12px + .5vw);
+.navbar-nav,
+.navbar-nav * {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+}
+
+.navbar-nav ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+
+.navbar-nav li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.navbar-nav li:hover>ul,
+.navbar-nav li.sfHover>ul {
+    display: block;
+}
+
+.navbar-nav ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.navbar-nav ul li {
+    min-width: 180px;
+}
+
+/* Nav Meu Container */
+#navbar-container {
+    float: right;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #navbar-container {
+        display: none;
+    }
+}
+
+/* Nav Meu Styling */
+.navbar-nav a {
+    padding: 0 8px 10px 8px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -76,7 +128,11 @@ h6 {
     outline: none;
 }
 
-.navbar a:before {
+.navbar-nav>li {
+    margin-left: 10px;
+}
+
+.navbar-nav>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -98,6 +154,14 @@ h6 {
     color: #c9fffe
 }
 
+.navbar .nav-text {
+    font-size: calc(12px + .5vw);
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+}
 .navbar .btn-default {
     color: #fff;
     line-height: 20px;
