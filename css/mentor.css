@@ -1,11 +1,16 @@
 @import "style.css";
-#hero{
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
     width: 100%;
     height: 100vh;
     background: url(../img/SVG/Mentor\ Hero.svg) top center;
     background-size: cover;
     position: relative;
 }
+
 /*--------------------------------------------------------------
 # Register Section
 --------------------------------------------------------------*/
@@ -15,7 +20,9 @@
     padding-right: 2.5%;
     padding-bottom: 5%;
     padding-top: 5%;
-    
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #register .register-title {
@@ -27,13 +34,11 @@
     font-size: calc(50px + .75vw);
 }
 
-
-
 #register .register-h3 {
     text-align: center;
     color: black;
     font-weight: 800;
-    
+
     font-size: calc(35px + .75vw);
 }
 
@@ -47,8 +52,25 @@
     height: auto;
 }
 
+#register .btn-default {
+    align-items: center;
+    justify-content: center;
+    color: #282828;
+    line-height: 20px;
+    border: 2px solid #3E84BD;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+#register .btn-default:hover {
+    color: #F5F5F5;
+    background: #254E70;
+    border: 2px solid #254E70;
+}
+
 /*--------------------------------------------------------------
-# Registerxxxx Section
+# Mentor Section
 --------------------------------------------------------------*/
 #mentor {
     background: #f5f5f5;
@@ -56,7 +78,7 @@
     padding-right: 2.5%;
     padding-bottom: 5%;
     padding-top: 5%;
-    
+
 }
 
 #mentor .mentor-title {
@@ -68,13 +90,11 @@
     font-size: calc(50px + .75vw);
 }
 
-
-
 #mentor .mentor-h3 {
     text-align: center;
     color: black;
     font-weight: 800;
-    
+
     font-size: calc(35px + .75vw);
 }
 
@@ -100,14 +120,11 @@
     padding-top: 7%;
 }
 
-
-
-
 #attend .attend-h3 {
     text-align: center;
     color: #f5f5f5;
     font-weight: 800;
-    
+
     font-size: calc(35px + .75vw);
 }
 
@@ -117,17 +134,15 @@
 }
 
 #attend .attend-img {
-    
+
     height: auto;
-    width: 70%; 
+    width: 70%;
 }
-
-
 
 /*--------------------------------------------------------------
 # FAQ Section
 --------------------------------------------------------------*/
-#faq{
+#faq {
     background-color: #282828;
     padding-top: 1%;
     padding-left: 5%;
@@ -144,14 +159,16 @@
     text-transform: uppercase;
     padding: 4%;
     font-size: calc(35px + .75vw);
-    
+
 }
-#faq .accordion-section .panel-default > .panel-heading {
+
+#faq .accordion-section .panel-default>.panel-heading {
     border: 0;
     background: #f5f5f5;
-    
+
     padding: 0;
 }
+
 #faq .accordion-section .panel-default .panel-title a {
     display: block;
     font-style: italic;
@@ -160,6 +177,7 @@
     text-decoration: underline solid #3E84BD;
     font-family: proxima-nova, sans-serif;
 }
+
 #faq .accordion-section .panel-default .panel-title a:after {
     font-family: proxima-nova, sans-serif;
     font-style: normal;
@@ -169,9 +187,11 @@
     float: right;
     margin-top: -12px;
 }
+
 #faq .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f107";
 }
+
 #faq .accordion-section .panel-default .panel-body {
     font-size: calc(15px + .5vw);
     color: white;

@@ -312,6 +312,9 @@ h6 {
     url(../img/1x/ju-image.png) fixed center top;
     background-size: cover;
     padding: 80px 0;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 @media (max-width: 1024px) {
