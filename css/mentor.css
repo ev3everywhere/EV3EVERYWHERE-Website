@@ -202,3 +202,16 @@ content: "\f107";
     font-size: calc(15px + .5vw);
     color: white;
 }
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+
+#footer {
+    background-color: #254E70;
+    color: white;
+}
+
+#footer .bottom{
+    background-color: green;
+}
