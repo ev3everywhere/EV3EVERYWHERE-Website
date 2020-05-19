@@ -202,3 +202,34 @@ content: "\f107";
     font-size: calc(15px + .5vw);
     color: white;
 }
+
+/*--------------------------------------------------------------
+# Attend Section
+--------------------------------------------------------------*/
+
+#footer {
+    background-color: #254E70;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#footer h6 {
+    font-family: ibm-plex-sans, sans-serif;
+}
+
+#footer p {
+    font-family: proxima-nova, sans-serif;
+    color: white;
+}
+
+#footer .bottom {
+    background-color: black;
+}
+
+.copy {
+    
+    color: white;
+    padding: 15%;
+}
