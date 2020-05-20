@@ -64,7 +64,7 @@ h6 {
 
 .navbar-default.scrolled {
     background: #00000090;
-}
+}x
 
 .navbar-nav,
 .navbar-nav * {
@@ -312,6 +312,9 @@ h6 {
     url(../img/1x/ju-image.png) fixed center top;
     background-size: cover;
     padding: 80px 0;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 @media (max-width: 1024px) {
@@ -391,7 +394,63 @@ h6 {
     font-size: calc(12px + .5vw);
 }
 
-/*--------------------------------------------------------------
-# Join Us section
---------------------------------------------------------------*/
+#contact {
+    background-color: #282828;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#contact h2 {
+    text-align: center;
+    justify-content: center;
+    color: #f5f5f5;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(25px + .75vw);
+
+}
+
+#contact .accordion-section .panel-default>.panel-heading {
+    border: 0;
+    background: #f5f5f5;
+
+    padding: 0;
+}
+
+#contact .accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: calc(20px + .75vw);
+    color: #282828;
+    text-decoration: underline solid #3E84BD;
+    font-family: proxima-nova, sans-serif;
+}
+
+#contact .accordion-section .panel-default .panel-title a:after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+
+#contact .accordion-section .panel-default .panel-title a.collapsed:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+}
+
+#contact .accordion-section .panel-default .panel-body {
+    font-size: calc(15px + .5vw);
+    color: white;
+}
+
 

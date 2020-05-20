@@ -16,12 +16,14 @@
   <link href="img\1x\apple-touch-icon.png" rel="apple-touch-icon">
   <!--Typekit Fonts-->
   <link rel="stylesheet" href="https://use.typekit.net/rkf8jxy.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/59e0915aff.js" crossorigin="anonymous"></script>
   <!-- External CSS Files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!--Main CSS File-->
   <link rel="stylesheet" href="css\style.css">
-  <link rel="stylesheet" href="css\mentor.css">
+
 </head>
 
 <body>
@@ -30,10 +32,10 @@
   <header id="header">
     <div class="container">
       <nav class="navbar navbar-default fixed-top navbar-light">
-        <a class="navbar-brand largeLogo" id="Logo" href="index.html"><img src="img\SVG\EV3 Extended Logo.svg"
+        <a class="navbar-brand largeLogo" id="Logo" href="index"><img src="img\SVG\EV3 Extended Logo.svg"
             alt="EV3EVERYWHERE Logo" title="EV3EVRYWHERE"></a>
-        <a class="nav-text nav-active" href="index.html">Home</a>
-        <a class="nav-text" href="mentor.html">Mentor</a>
+        <a class="nav-text nav-active" href="index">Home</a>
+        <a class="nav-text" href="mentor">Mentor</a>
         <a class="nav-text" href="#">Learn</a>
         <a class="nav-text" href="#">Contact</a>
         <a class="btn btn-default nav-text" href="#" role="button">Donate</a>
@@ -59,19 +61,20 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-xs-12">
             <h3 class="about-h3">Mission Statement</h3>
-            <p class="about-p">To reinvent how young minds access and pursue Science, Technology Engineering, and
-              Math.</p>
-            <h3 class="about-h3">Who We Are</h3>
-             <p class="about-p">EV3EVERYWHERE, is a 501(c)3 not-for-profit organization dedicated to promoting global access to STEM education
-            technologies.</p>
-            <h3 class="about-h3">What We Do</h3>
-            <p class="about-p">Here at EV3EVRYWHERE, we have developed a system where high school students can become
-              robotics mentors and come to teachers’ aid providing young leaders with an opportunity to give back to
-              their community.</p>
-            <p class="about-p">Furthermore, many of our global community members often don't have access to the expensive world of STEM
-              education technologies. To tackle this issue we have created virtual learning labs for any student with
-              internet access to use such technologies.
+            <p class="about-p"> To reinvent how young minds access and pursue Science, Technology, Engineering, and
+              Math.
             </p>
+            <h3 class="about-h3">Who We Are</h3>
+            <p class="about-p">EV3EVERYWHERE is a 501(c)3 Not for Profit organization dedicated to promoting global
+              access to STEM education and related technologies.</p>
+            <h3 class="about-h3">What We Do At Home</h3>
+            <p class="about-p">Here at EV3EVERYWHERE, we have developed a system where high school students can become
+              robotics mentors and come to teachers’ aid, providing future leaders with an opportunity to give back to
+              their community.</p>
+            <h3 class="about-h3">How We Help Globally</h3>
+            <p class="about-p">For those of our global community members who may not have access to STEM education and
+              related technologies, we have created virtual learning labs providing students with internet access the
+              ability to learn robotics.</p>
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12 text-center">
             <img src="img\SVG\EV3 Primary Logo BLK.svg" alt="" class="responsive about-img">
@@ -113,7 +116,8 @@
               promote STEM and robotics to young minds.</p>
           </div>
           <div class="col-lg-2 ju-btn-container text-center">
-            <a class="btn btn-default ju-text" href="#" role="button">Become a Mentor</a> </div>
+            <a class="btn btn-default ju-text" href="mentor#register" role="button">Become a
+              Mentor</a> </div>
         </div>
 
       </div>
@@ -126,19 +130,22 @@
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2 text-center">
             <img src="img\1x\Hanzala.jpg" alt="Hanzala Rehan">
             <h3 class="team-h3">Hanzala Rehan</h3>
-            <p>President (Founder)</p>
+            <p>President & Director of Autonomous Operations</p>
+            <p>Founder</p>
 
           </div>
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2 text-center">
             <img src="img\1x\Neel.jpg" alt="Nilesh Pai">
             <h3 class="team-h3">Neel Pai</h3>
-            <p>Internal Operations Director (Founder)</p>
+            <p>Internal Operations Director</p>
+            <p>Founder</p>
 
           </div>
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2 text-center">
             <img src="img\1x\Faaiz.jpg" alt="Faaiz Nadeem">
             <h3 class="team-h3">Faaiz Nadeem</h3>
-            <p>Global Oureach Director (Founder)</p>
+            <p>Global Outreach Director</p>
+            <p>Founder</p>
 
           </div>
           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2 text-center">
@@ -159,6 +166,99 @@
             <p>Digital Media Manager</p>
 
           </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+
+
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                  What do mentors do?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+              <div class="panel-body px-3 mb-4">
+                <p>Mentors work with elementary and middle school FIRST Lego League coaches and assist with the
+                  knowledge they have gained through prior experiences and our training seminars.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  What requirements must aspiring mentors meet?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+              <div class="panel-body px-3 mb-4">
+                <ul>
+                  <li>Mentors must be current high school students</li>
+                  <li>Mentors must be able to leave school by 3:30 P.M</li>
+                  <li>Mentors must have a reliable means of transportation</li>
+                  <li>Mentors must be able to pass a background check</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  Why should you become a mentor?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+              <div class="panel-body px-3 mb-4">
+                <p>Our mentors not only get an opportunity to give back to the community, but also get other perks</p>
+                <ul>
+                  <li>Community Hours</li>
+                  <li>Leadership positions at local chapters</li>
+                  <li>Job Opportunities as executives at EV3EVERYWHERE</li>
+                  <li>Letters of Recommendation from partner elementary schools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Other Questions
+                </a>
+              </h3>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+              <div class="panel-body px-3 mb-4">
+                <p>For other questions, contact us at <a
+                    href="mailto:mentors@ev3everywhere.com">mentors@ev3everywhere.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
 
       </div>
