@@ -208,10 +208,20 @@ content: "\f107";
 --------------------------------------------------------------*/
 
 #footer {
-    background-color: #254E70;
+    background-color: #267587;
     color: white;
+    
 }
 
-#footer .bottom{
-    background-color: green;
+#footer .container1{
+    background-color: #254E70;
 }
+
+#footer .bruh{
+    text-align: center;
+}
+
+#footer .bruh1{
+    padding-top: 1.25%;
+}
+
