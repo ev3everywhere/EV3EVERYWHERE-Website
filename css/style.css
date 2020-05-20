@@ -391,7 +391,15 @@ h6 {
     color: black;
     font-weight: 800;
     font-size: 1.85vw;
-    font-size: calc(12px + .5vw);
+    font-size: calc(15px + .5vw);
+}
+
+#team .team-p {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 1.85vw;
+    font-size: calc(10px + .5vw);
 }
 
 #contact {
