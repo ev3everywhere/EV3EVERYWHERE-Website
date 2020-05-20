@@ -166,4 +166,22 @@
 #faq .accordion-section .panel-default .panel-body {
     font-size: calc(15px + .5vw);
     color: white;
+<<<<<<< Updated upstream
+=======
+}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+
+#footer {
+    background-color: #254E70;
+    color: white;
+}
+
+#footer .bottom{
+    background-color: #254E70;
+    margin-left: inherit;
+    margin-right: inherit;
+>>>>>>> Stashed changes
 }
