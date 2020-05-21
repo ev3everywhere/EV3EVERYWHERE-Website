@@ -183,6 +183,12 @@ x.nav-active>a:before {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
