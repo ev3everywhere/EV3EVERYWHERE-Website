@@ -4,6 +4,8 @@
 --------------------------------------------------------------*/
 #learn {
     padding-top: 5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
     color: black;
 }
 
@@ -12,7 +14,7 @@
 #learn .course {
     background: #254e70;
     border-radius: 15px;
-    padding: 10%;
+    padding: 5%;
 }
 
 #learn .course-h3 {
@@ -20,7 +22,7 @@
     font-style: normal;
     font-weight: 400;
     color: white;
-    font-size: calc(10px + .75vw);
+    font-size: calc(15px + .75vw);
 }
 
 #learn .course a{
@@ -36,7 +38,7 @@
 }
 
 #learn .card1 {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 }
 
 #learn .card {
@@ -76,3 +78,4 @@
     color: #3e84bd;
     
 }
+
