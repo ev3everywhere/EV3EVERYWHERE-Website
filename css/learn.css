@@ -4,6 +4,75 @@
 --------------------------------------------------------------*/
 #learn {
     padding-top: 5%;
-    
+    color: black;
 }
 
+
+
+#learn .course {
+    background: #254e70;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+#learn .course-h3 {
+    font-family: ibm-plex-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: calc(10px + .75vw);
+}
+
+#learn .course a{
+    color: #f5f5f5;
+}
+
+#learn .course a:hover{
+    color: #8e8e8e;
+}
+
+#learn .course li{
+    padding: 2%;
+}
+
+#learn .card1 {
+    margin-bottom: 5%;
+}
+
+#learn .card {
+    border-radius: 15px;
+}
+
+#learn .card h5 {
+    font-family: ibm-plex-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: calc(15px + .75vw);
+}
+
+#learn .card h6 {
+    font-family: ibm-plex-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: calc(10px + .75vw);
+}
+
+#learn .card {
+    background-color: #DFE0DC;
+}
+
+#learn .li-left{
+    text-align: left;
+}
+
+#learn .card a{
+    color: #254e70;
+    font-size: calc(10px + .5vw);
+}
+
+#learn .card a:hover{
+    color: #3e84bd;
+    
+}
