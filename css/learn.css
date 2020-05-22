@@ -79,14 +79,21 @@
     
 }
 
-@media (max-width: 1024px) { 
+
+#learn .bruh21 {
+    text-align: center;
+}
+
+
+
+@media (max-width: 960px) { 
 
     .show-only-on-large {
       display: none;
     }
   }
    
-  @media (min-width: 1024px) { 
+  @media (min-width: 960px) { 
 
     .show-only-on-large {
       display: block;
