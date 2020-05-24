@@ -23,7 +23,7 @@
     color: white;
     padding: 2%;
     font-weight: 600;
-    font-size: calc(50px + .5vw);
+    font-size: calc(50px + .75vw);
 }
 
 #what .what-h3 {
