@@ -323,7 +323,15 @@ x.nav-active>a:before {
 a:active,
 a:focus,
 a:link {
-    color: #fff;
+    color: white;
     outline: none;
     text-decoration: none;
+}
+
+#footer .bruh2 {
+    color: white;
+}
+
+#footer .bruh2:hover {
+    color: tomato;
 }
