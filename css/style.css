@@ -292,30 +292,6 @@ a:link {
 }
 
 
-#hero .neel-is-fool2 {
+.neel-is-fool2 {
     width: 100%;
-}
-
-#hero .centered {
-    text-align: center;
-    font-family: ibm-plex-sans, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    font-size: calc(90px + .75vw);
-    color: white;
-    width: 100%;
-}
-
-
-#hero .container-fluid {
-    padding: 0;
-    margin: 0;
-}
-
-#hero .img {
-    position: relative;
 }
