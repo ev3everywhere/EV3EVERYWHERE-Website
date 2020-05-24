@@ -188,6 +188,7 @@ x.nav-active>a:before {
     height: 100vh;
     background-size: cover;
     position: relative;
+    
 }
 
 @media (min-width: 1024px) {
@@ -198,7 +199,7 @@ x.nav-active>a:before {
 
 #hero:before {
 
-
+background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -217,6 +218,7 @@ x.nav-active>a:before {
     align-items: top;
     text-align: center;
     justify-content: center;
+    
 }
 
 #hero h1 {
@@ -323,7 +325,7 @@ x.nav-active>a:before {
 a:active,
 a:focus,
 a:link {
-    color: white;
+    color: #abfffe;
     outline: none;
     text-decoration: none;
 }
@@ -333,5 +335,5 @@ a:link {
 }
 
 #footer .bruh2:hover {
-    color: tomato;
+    color: #3e84bd;
 }
