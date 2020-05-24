@@ -86,6 +86,8 @@
 
 
 
+
+
 @media (max-width: 960px) { 
 
     .show-only-on-large {
@@ -97,5 +99,9 @@
 
     .show-only-on-large {
       display: block;
+
     }
   }
+
+
+
