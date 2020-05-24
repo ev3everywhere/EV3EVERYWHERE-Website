@@ -189,6 +189,7 @@ x.nav-active>a:before {
     background-size: cover;
     position: relative;
 }
+
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
@@ -282,9 +283,9 @@ x.nav-active>a:before {
 }
 
 #faq .accordion-section .panel-default .panel-title a.collapsed:after {
-font-family: "Font Awesome 5 Free";
-font-weight: 900;
-content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
 }
 
 #faq .accordion-section .panel-default .panel-body {
@@ -299,18 +300,30 @@ content: "\f107";
 #footer {
     background-color: #254E70;
     color: white;
-    
+
 }
 
-#footer .container1{
+#footer .container1 {
     background-color: #254E70;
 }
 
-#footer .bruh{
+#footer .bruh {
     text-align: center;
 }
 
-#footer .bruh1{
+#footer .bruh1 {
     padding-top: 1.25%;
 }
 
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover,
+a:active,
+a:focus,
+a:link {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
