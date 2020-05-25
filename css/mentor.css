@@ -10,7 +10,45 @@
     background-size: cover;
     position: relative;
 }
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+#about {
+    background: #282828;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
 
+#about .about-title {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(35px + .75vw);
+}
+
+
+
+#about .about-h3 {
+    text-align: left;
+    color: white;
+    font-weight: 800;
+
+    font-size: calc(20px + .5vw);
+}
+
+#about .about-p {
+    color: white;
+    font-size: calc(15px + .5vw);
+}
+
+#about .about-img {
+    width: 50%;
+    height: auto;
+    color: white;
+}
 /*--------------------------------------------------------------
 # what Section. This is crazy
 --------------------------------------------------------------*/
