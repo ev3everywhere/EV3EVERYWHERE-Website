@@ -1,4 +1,13 @@
 @import "style.css";
+
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/SVG/Mentor\ Hero.svg) top center;
+    background-size: cover;
+    position: relative;
+}
 /*--------------------------------------------------------------
 # Learn Summary Section
 --------------------------------------------------------------*/

@@ -205,7 +205,7 @@ x.nav-active>a:before {
     right: 0;
     padding-top: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: center top;
     align-items: top;
     text-align: center;
     flex-direction: column;
@@ -217,7 +217,7 @@ x.nav-active>a:before {
     padding-top: 10;
 
     font-size: calc(55px + 1.25vw);
-
+    
     text-transform: uppercase;
     color: #f5f5f5;
 }
