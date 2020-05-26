@@ -23,8 +23,12 @@ Video
 
 #video h1{
   text-align: center;
-  color: black;
+  color: #282828;
   padding: 2%;
+  font-family: ibm-plex-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
 }
 #video .vertical-menu a {
     background-color: #eee;
