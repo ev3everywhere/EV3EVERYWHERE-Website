@@ -19,12 +19,13 @@ Video
     background-color: #f5f5f5;
     padding-top: 5%;
     padding-bottom: 5%;
+    
 }
 
 #video h1{
   text-align: center;
   color: #282828;
-  padding: 2%;
+  padding: 5%;
   font-family: ibm-plex-sans, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +66,60 @@ Video
     border-bottom-right-radius: 10px;
  }
 
- #leftCol {
+
+
+
+#tabbedmenu {
+  padding: 2.5%;
+}
+
+
+
+#tabbedmenu .bruh:hover {
+  background-color: #8e8e8e;
+  color: white;
+  border-bottom-color: #8e8e8e;
+}
+
+#tabbedmenu .active {
+  background-color: #254E70;
+  border-left-color: white;
+  border-right-color: white;
+  border-top-color: white;
+  border-bottom-color: #254e70;
+  color: white;
+}
+
+#tabbedmenu a {
+  color: black;
+  background-color: #3e84bd;
+  border-left-color: white;
+  border-right-color: white;
+  border-top-color: white;
+}
+
+#tabbedmenu .item {
+  background-color: #8e8e8e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1%;
+}
+
+#tabbedmenu .item h2{
+  font-family: ibm-plex-sans, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: calc(20px + .5vw);
+}
+
+#tabbedmenu .item p{
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + .5vw);
+}
+
+#leftCol {
   position: absolute;
   width: 100%;
   background-color: #f5f5f5;
