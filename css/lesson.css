@@ -91,7 +91,7 @@ Video
 }
 
 #tabbedmenu a {
-  color: black;
+  color: white;
   background-color: #3e84bd;
   border-left-color: white;
   border-right-color: white;
@@ -128,3 +128,4 @@ Video
   bottom: 0;
   height: 70%;
 }
+
