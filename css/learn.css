@@ -15,43 +15,12 @@
     padding-top: 5%;
     padding-right: 2.5%;
     padding-left: 2.5%;
-    color: black;
+    
 }
 
 
-
-#learn .course {
-    background: #254e70;
-    border-radius: 15px;
-    padding: 5%;
-}
-
-#learn .course-h3 {
-    font-family: ibm-plex-sans, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-    font-size: calc(15px + .75vw);
-}
-
-#learn .course a{
-    color: #f5f5f5;
-}
-
-#learn .course a:hover{
-    color: #8e8e8e;
-}
-
-#learn .course li{
-    padding: 2%;
-}
-
-#learn .card1 {
-    margin-bottom: 20px;
-}
-
-#learn .card {
-    border-radius: 15px;
+#main {
+    background-color: #f5f5f5;
 }
 
 #learn .card h5 {
@@ -71,8 +40,21 @@
 }
 
 #learn .card {
-    background-color: #DFE0DC;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#learn .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #3e84bd;
+   
+}
+
+#learn .card1 {
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+}
+
 
 #learn .li-left{
     text-align: left;
@@ -114,3 +96,49 @@
 
 
 
+  
+#learn .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: calc(15px + .5vw);
+  }
+  
+
+
+#learn .vertical-menu a:hover {
+    background-color: #3e84bd;
+    color: white;
+    
+
+  }
+  
+#learn .vertical-menu a.active {
+    background-color: #254E70;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+#learn .vertical-menu img{
+    max-width: 50px;
+    padding-right: 10px;
+  }
+
+#learn .vertical-menu .bottom-a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+
+ #leftCol {
+    position: absolute;
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    max-height: 90vh;
+  }
+  
