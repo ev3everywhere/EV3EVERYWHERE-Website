@@ -10,6 +10,105 @@
     background-size: cover;
     position: relative;
 }
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+#about {
+    background: #282828;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
+
+#about .about-title {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(35px + .75vw);
+}
+
+
+
+#about .about-h3 {
+    text-align: left;
+    color: white;
+    font-weight: 800;
+
+    font-size: calc(20px + .5vw);
+}
+
+#about .about-p {
+    color: white;
+    font-size: calc(15px + .5vw);
+}
+
+#about .about-img {
+    width: 70%;
+    height: auto;
+    color: white;
+    border-radius: 15px;
+}
+
+/*--------------------------------------------------------------
+# what Section. This is crazy
+--------------------------------------------------------------*/
+#what {
+    background: #254E70;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    padding-top: 1%;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#what .what-title {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(50px + .75vw);
+}
+
+#what .what-h3 {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+
+    font-size: calc(35px + .75vw);
+}
+
+#what .what-p {
+    color: white;
+    text-align: left;
+    font-size: calc(25px + .5vw);
+}
+
+#what .what-img {
+    width: 40%;
+    height: auto;
+}
+
+#what .btn-default {
+    align-items: center;
+    justify-content: center;
+    color: #282828;
+    line-height: 20px;
+    border: 2px solid #3E84BD;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+#what .btn-default:hover {
+    color: #F5F5F5;
+    background: #254E70;
+    border: 2px solid #254E70;
+}
 
 /*--------------------------------------------------------------
 # Register Section
@@ -55,18 +154,34 @@
 #register .btn-default {
     align-items: center;
     justify-content: center;
+    
     color: #282828;
     line-height: 20px;
     border: 2px solid #3E84BD;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
+    width: 50%;
+    height: 70%;
+    font-size:calc(20px + .5vw);
+    
 }
 
 #register .btn-default:hover {
     color: #F5F5F5;
     background: #254E70;
     border: 2px solid #254E70;
+}
+
+#register .neelisafoolpt3 {
+    padding: 5%;
+}
+
+#register .register-text {
+    color: black;
+    font-size: calc(20px + .10vw);
+    padding-top: 2.5%;
+    padding-bottom: 2.5%
 }
 
 /*--------------------------------------------------------------
@@ -139,79 +254,3 @@
     width: 70%;
 }
 
-/*--------------------------------------------------------------
-# FAQ Section
---------------------------------------------------------------*/
-#faq {
-    background-color: #282828;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-}
-
-#faq h2 {
-    font-family: ibm-plex-sans, sans-serif;
-    text-align: center;
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: #f5f5f5;
-    text-transform: uppercase;
-    padding: 4%;
-    font-size: calc(35px + .75vw);
-
-}
-
-#faq .accordion-section .panel-default>.panel-heading {
-    border: 0;
-    background: #f5f5f5;
-
-    padding: 0;
-}
-
-#faq .accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: calc(20px + .75vw);
-    color: #282828;
-    text-decoration: underline solid #3E84BD;
-    font-family: proxima-nova, sans-serif;
-}
-
-#faq .accordion-section .panel-default .panel-title a:after {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f106";
-    color: #1f7de2;
-    float: right;
-    margin-top: -12px;
-}
-
-#faq .accordion-section .panel-default .panel-title a.collapsed:after {
-font-family: "Font Awesome 5 Free";
-font-weight: 900;
-content: "\f107";
-}
-
-#faq .accordion-section .panel-default .panel-body {
-    font-size: calc(15px + .5vw);
-    color: white;
-}
-
-/*--------------------------------------------------------------
-# Footer Section
---------------------------------------------------------------*/
-
-#footer {
-    background-color: #254E70;
-    color: white;
-}
-
-#footer .bottom{
-    background-color: #254E70;
-}
