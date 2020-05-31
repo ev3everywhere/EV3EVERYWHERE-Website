@@ -112,7 +112,7 @@
   }
   
 .part a{
-  font-size: calc(15px + .5vw);
+  font-size: calc(12.5px + .5vw);
   color: black;
   display: inline;
 }
