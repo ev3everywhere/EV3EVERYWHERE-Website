@@ -269,7 +269,7 @@ x.nav-active>a:before {
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: "\f106";
+    content: "\f107";
     color: #1f7de2;
     float: right;
     margin-top: -12px;
@@ -278,7 +278,7 @@ x.nav-active>a:before {
 #faq .accordion-section .panel-default .panel-title a.collapsed:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: "\f107";
+    content: "\f106";
 }
 
 #faq .accordion-section .panel-default .panel-body {
