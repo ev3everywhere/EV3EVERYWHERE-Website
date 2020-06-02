@@ -134,16 +134,17 @@
 }
 
 #register .register-h3 {
-    text-align: center;
+    text-align: left;
     color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(55px + .75vw);
 }
 
 #register .register-p {
+    text-align: left;
     color: black;
-    font-size: calc(25px + .5vw);
+    font-size: calc(18px + .5vw);
 }
 
 #register .register-img {
@@ -174,14 +175,16 @@
 }
 
 #register .neelisafoolpt3 {
-    padding: 5%;
+    padding-top: 5%;
+    text-align: left;
+    
 }
 
 #register .register-text {
     color: black;
     font-size: calc(20px + .10vw);
     padding-top: 2.5%;
-    padding-bottom: 2.5%
+    padding-bottom: 2.5%;
 }
 
 /*--------------------------------------------------------------
@@ -228,7 +231,7 @@
 # Attend Section
 --------------------------------------------------------------*/
 #attend {
-    background: #282828;
+    background: #f5f5f5;
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-bottom: 5%;
@@ -236,15 +239,16 @@
 }
 
 #attend .attend-h3 {
-    text-align: center;
-    color: #f5f5f5;
+    text-align: right;
+    color: black;
     font-weight: 800;
 
     font-size: calc(35px + .75vw);
 }
 
 #attend .attend-p {
-    color: #f5f5f5;
+    text-align: right;
+    color: black;
     font-size: calc(25px + .5vw);
 }
 
