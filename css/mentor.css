@@ -10,105 +10,7 @@
     background-size: cover;
     position: relative;
 }
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-#about {
-    background: #282828;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 5%;
-}
 
-#about .about-title {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 2%;
-    font-weight: 600;
-    font-size: calc(35px + .75vw);
-}
-
-
-
-#about .about-h3 {
-    text-align: left;
-    color: white;
-    font-weight: 800;
-
-    font-size: calc(20px + .5vw);
-}
-
-#about .about-p {
-    color: white;
-    font-size: calc(15px + .5vw);
-}
-
-#about .about-img {
-    width: 70%;
-    height: auto;
-    color: white;
-    border-radius: 15px;
-}
-
-/*--------------------------------------------------------------
-# what Section. This is crazy
---------------------------------------------------------------*/
-#what {
-    background: #254E70;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 2.5%;
-    padding-top: 1%;
-    align-items: center;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#what .what-title {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 2%;
-    font-weight: 600;
-    font-size: calc(50px + .75vw);
-}
-
-#what .what-h3 {
-    text-align: center;
-    color: white;
-    font-weight: 800;
-
-    font-size: calc(35px + .75vw);
-}
-
-#what .what-p {
-    color: white;
-    text-align: left;
-    font-size: calc(25px + .5vw);
-}
-
-#what .what-img {
-    width: 40%;
-    height: auto;
-}
-
-#what .btn-default {
-    align-items: center;
-    justify-content: center;
-    color: #282828;
-    line-height: 20px;
-    border: 2px solid #3E84BD;
-    border-radius: 40px;
-    background: transparent;
-    transition: all 0.3s ease 0s;
-}
-
-#what .btn-default:hover {
-    color: #F5F5F5;
-    background: #254E70;
-    border: 2px solid #254E70;
-}
 
 /*--------------------------------------------------------------
 # Register Section
@@ -255,4 +157,5 @@
     height: auto;
     width: 70%;
 }
+
 
