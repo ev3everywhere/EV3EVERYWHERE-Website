@@ -46,12 +46,16 @@
 #register .register-p {
     text-align: left;
     color: black;
-    font-size: calc(18px + .5vw);
+    font-size: calc(15px + .5vw);
 }
 
 #register .register-img {
     width: 40%;
     height: auto;
+}
+
+#register .img-cont {
+    text-align: end;
 }
 
 #register .btn-default {
@@ -114,17 +118,21 @@
     color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(55px + .75vw);
 }
 
 #mentor .mentor-p {
     color: black;
-    font-size: calc(25px + .5vw);
+    font-size: calc(15px + .5vw);
 }
 
 #mentor .mentor-img {
     width: 60%;
     height: auto;
+}
+
+#mentor .img-cont {
+    text-align: end;
 }
 
 /*--------------------------------------------------------------
@@ -143,13 +151,13 @@
     color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(55px + .75vw);
 }
 
 #attend .attend-p {
     text-align: right;
     color: black;
-    font-size: calc(25px + .5vw);
+    font-size: calc(15px + .5vw);
 }
 
 #attend .attend-img {
@@ -159,3 +167,59 @@
 }
 
 
+#attend .img-cont {
+    text-align: start;
+}
+
+@media (max-width: 760px) { 
+
+    .footer_copy {
+      text-align: center;
+
+    }
+
+    #attend .attend-h3 {
+        text-align: center;
+    }
+
+    #attend .attend-p {
+        text-align: center;
+    }
+
+    #mentor .mentor-h3 {
+        text-align: center;
+    }
+
+    #mentor .mentor-p {
+        text-align: center;
+    }
+
+    #register .register-h3 {
+        text-align: center;
+    }
+
+    #register .register-p {
+        text-align: center;
+    }
+
+    #register .img-cont {
+        text-align: center;
+    }
+
+    #attend .img-cont {
+        text-align: center;
+    }
+
+    #mentor .img-cont {
+        text-align: center;
+    }
+    
+    #register .neelisafoolpt3 {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;   
+    }
+
+
+
+  }
