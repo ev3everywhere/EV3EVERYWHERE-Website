@@ -159,3 +159,12 @@
 }
 
 
+
+
+@media (max-width: 760px) { 
+
+    .footer_copy {
+      text-align: center;
+
+    }
+  }
