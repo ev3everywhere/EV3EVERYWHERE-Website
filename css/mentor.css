@@ -3,15 +3,58 @@
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-    width: 100%;
+.hero {
+    /* Sizing */
+    
     height: 100vh;
-    background: url(../img/SVG/Mentor\ Hero.svg) top center;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Background styles */
+    background-image: url(../img/2x/Home\ Page\ Hero@2x.png);
     background-size: cover;
-    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.hero h1 {
+    /* Text styles */
+    font-size: calc(75px + .75vw);
 
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: white;
+    /* Border styles */
+    border: 3px solid white;
+}
+
+.hero .btn:hover {
+    border: 3px solid #2DAEFD;
+    color: #2DAEFD;
+}
 /*--------------------------------------------------------------
 # Register Section
 --------------------------------------------------------------*/
@@ -171,6 +214,25 @@
     text-align: start;
 }
 
+
+.diagram {
+    /* Sizing */
+    
+    
+    
+    height: 60vh;
+    
+    /* Flexbox stuff */
+  
+
+    /* Background styles */
+    background-image: url(../img/SVG/step\ diagram.svg);
+    
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+}
+
+
 @media (max-width: 760px) { 
 
     .footer_copy {
@@ -220,6 +282,31 @@
         text-align: center;   
     }
 
+    .diagram {
+        height: 100vh;
+        background-image: url(../img/SVG/SVG/step\ diagram\ -\ mobile.svg);
+    }
 
 
+
+  }
+
+
+
+  @media (max-width: 1024px) { 
+
+  .hero {
+    background-image: url(../img/1x/temp-mobile.jpg);
+}
+
+   .diagram {
+    height: 40vh;
+}
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+        /* Text styles */
+        font-size: calc(55px + .75vw);
+    }
   }
