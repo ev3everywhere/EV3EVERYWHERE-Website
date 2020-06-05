@@ -11,6 +11,7 @@
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
+    
     align-items: center;
     text-align: center;
 
@@ -83,13 +84,13 @@
     color: black;
     font-weight: 800;
 
-    font-size: calc(55px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #register .register-p {
     text-align: left;
     color: black;
-    font-size: calc(15px + .5vw);
+    font-size: calc(10px + .5vw);
 }
 
 #register .register-img {
@@ -161,12 +162,12 @@
     color: black;
     font-weight: 800;
 
-    font-size: calc(55px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #mentor .mentor-p {
     color: black;
-    font-size: calc(15px + .5vw);
+    font-size: calc(10px + .5vw);
 }
 
 #mentor .mentor-img {
@@ -194,13 +195,13 @@
     color: black;
     font-weight: 800;
 
-    font-size: calc(55px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #attend .attend-p {
     text-align: right;
     color: black;
-    font-size: calc(15px + .5vw);
+    font-size: calc(10px + .5vw);
 }
 
 #attend .attend-img {
@@ -215,22 +216,7 @@
 }
 
 
-.diagram {
-    /* Sizing */
-    
-    
-    
-    height: 60vh;
-    
-    /* Flexbox stuff */
-  
 
-    /* Background styles */
-    background-image: url(../img/SVG/step\ diagram.svg);
-    
-    background-repeat: no-repeat;
-    background-attachment: absolute;
-}
 
 
 @media (max-width: 760px) { 
@@ -242,26 +228,32 @@
 
     #attend .attend-h3 {
         text-align: center;
+        font-size: calc(30px + .75vw);
     }
 
     #attend .attend-p {
         text-align: center;
+        font-size: calc(15px + .75vw);
     }
 
     #mentor .mentor-h3 {
         text-align: center;
+        font-size: calc(30px + .75vw);
     }
 
     #mentor .mentor-p {
         text-align: center;
+        font-size: calc(15px + .75vw);
     }
 
     #register .register-h3 {
         text-align: center;
+        font-size: calc(30px + .75vw);
     }
 
     #register .register-p {
         text-align: center;
+        font-size: calc(15px + .75vw);
     }
 
     #register .img-cont {
@@ -282,11 +274,7 @@
         text-align: center;   
     }
 
-    .diagram {
-        height: 100vh;
-        background-image: url(../img/SVG/SVG/step\ diagram\ -\ mobile.svg);
-    }
-
+  
 
 
   }
@@ -299,14 +287,35 @@
     background-image: url(../img/1x/temp-mobile.jpg);
 }
 
-   .diagram {
-    height: 40vh;
-}
+  
   }
 
   @media (max-width: 480px) {
     .hero h1 {
         /* Text styles */
         font-size: calc(55px + .75vw);
+    }
+  }
+
+  @media (max-width: 760px) { 
+
+    .show-only-on-large {
+      display: none;
+    }
+
+    .show-only-on-small {
+        display: block;
+    }
+  }
+   
+  @media (min-width: 760px) { 
+
+    .show-only-on-large {
+      display: block;
+
+    }
+
+    .show-only-on-small {
+        display: none;
     }
   }
