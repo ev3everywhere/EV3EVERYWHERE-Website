@@ -305,6 +305,7 @@
 
     .show-only-on-small {
         display: block;
+        width: 90vw;
     }
   }
    
