@@ -33,122 +33,207 @@
 <body>
 
   <!-- ======= Header ======= -->
+  <header id="nav">
+    <div class="web-container">
+      <nav class="navbar navbar-default navbar-expand-md fixed-top">
+        <div class="d-flex mr-auto flex-grow-1 navbar-brand">
+          <a class="navbar-logo" id="logo" href="/"></a>
+          <a class="navbar-logo" id="logo-extended" href="/"></a>
+        </div>
+        <div class="d-flex text-right flex-nowrap mr-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link m-3 nav-text middle" href="/">Home</a>
+            </li>
+            <li class="nav-item nav-active">
+              <a class="nav-link m-3 nav-text middle" href="/mentor">Mentor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 nav-text middle" href="/learn">Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 nav-text middle" href="/#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 nav-text btn btn-default" id="donateButton" href="" role="button">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-  <!<!-- End Header -->
+  <header id="nav-mobile">
+    <div class="nav-container">
+      <nav class="navbar navbar-expand-md justify-content-center navbar-default fixed-top mobile-container">
+        <div class="d-flex mr-auto flex-grow-1 navbar-brand">
+          <a class="navbar-logo" id="logo-icon" href="/"></a>
+          <a class="navbar-logo" id="logo-extended-m" href="/"></a>
+        </div>
+        <button type="button" class="btn nav-button" data-toggle="modal" data-target="#left_modal_sm"><i
+            class="fa fa-bars"></i></button>
+      </nav>
+    </div>
+    <div class="modal left fade" id="left_modal_sm" tabindex="-1" role="dialog" aria-labelledby="left_modal_sm"
+      aria-hidden="true"">
+              <div class=" modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">EV3EVERYWHERE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body navbar-nav ml-auto flex-nowrap text-left ">
+          <a class="nav-item nav-link nav-text" href="/">Home</a>
+          <a class="nav-item nav-link nav-text" href="">Mentor</a>
+          <a class="nav-item nav-link nav-text" href="">Learn</a>
+          <a class="nav-item nav-link nav-text" href="">Contact</a>
+          <a class="nav-item nav-link nav-text" href="">Donate</a>
 
-    <!-- ======= Hero Section ======= -->
-    <section class="hero">
-      <div class="hero-inner">
-          <h1>Making change one step at a time</h1>
-          
-          <a href="https://example.com/" class="btn">Join Us</a>
+        </div>
       </div>
+    </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Making change one step at a time</h1>
+
+      <a href="https://example.com/" class="btn">Join Us</a>
+    </div>
   </section><!-- End Hero Section -->
 
-    <main id="main">
+  <main id="main">
 
 
 
 
-      <section id="register">
-        <div class="container-fluid">
+    <section id="register">
+      <div class="container-fluid">
 
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-              <h3 class="register-h3">Register</h3>
-              <p class="register-p">Click the button and sign up for a seminar.</p>
-              <div class="neelisafoolpt3">
-                <a class="btn btn-default register-text" href="#" role="button">Register</a>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+            <h3 class="register-h3">Register</h3>
+            <p class="register-p">Click the button and sign up for a seminar.</p>
+            <div class="neelisafoolpt3">
+              <a class="btn btn-default register-text" href="#" role="button">Register</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
+            <img src="../img/SVG/form.svg" alt="" class="responsive register-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="attend">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
+            <img src="../img/Attend.svg" alt="" class="responsive attend-img">
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+            <h3 class="attend-h3">Attend</h3>
+            <p class="attend-p">Attend the seminar, Learn how to help your community, Get certified</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mentor">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
+            <h3 class="mentor-h3">Mentor</h3>
+            <p class="mentor-p">Use the skills you’ve learned to help your community
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
+            <img src="../img/MedMentor.png" alt="" class="responsive mentor-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="d-flex justify-content-center">
+      <section class="diagram ">
+        <div class="hero-inner">
+
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+
+
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                  What do mentors do?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+              <div class="panel-body px-3 mb-4">
+                <p>Mentors work with elementary and middle school FIRST LEGO League coaches and assist with the
+                  knowledge they have gained through prior experiences and our training seminars.</p>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
-              <img src="../img/form.svg" alt="" class="responsive register-img">
-            </div>
           </div>
-        </div>
-      </section>
-
-      <section id="attend">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
-              <img src="../img/Attend.svg" alt="" class="responsive attend-img">
-            </div>
-            <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-              <h3 class="attend-h3">Attend</h3>
-              <p class="attend-p">Attend the seminar, Learn how to help your community, Get certified</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="mentor">
-        <div class="container-fluid">
-
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-12 my-auto">
-              <h3 class="mentor-h3">Mentor</h3>
-              <p class="mentor-p">Use the skills you’ve learned to help your community
-              </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xs-12 img-cont">
-              <img src="../img/MedMentor.png" alt="" class="responsive mentor-img">
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-<div class = "d-flex justify-content-center">
-  <section class="diagram ">
-    <div class="hero-inner">
-        
-    </div>
-</section>
-</div>
-     
-
-
-
-      <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-
-
 
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
-              <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+              <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
                 <h3 class="panel-title">
                   <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                    href="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                    What do mentors do?
+                    href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    What are the seminars?
                   </a>
                 </h3>
               </div>
-              <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+              <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
                 <div class="panel-body px-3 mb-4">
-                  <p>Mentors work with elementary and middle school FIRST LEGO League coaches and assist with the
-                    knowledge they have gained through prior experiences and our training seminars.</p>
+                  <p>Prospective mentors come to an 8-hour seminar, spread across multiple days to learn how to
+                    mentor, LEGO EV3 programming, FIRST LEGO League, and other tools mentors may need to help their
+                    teams succeed.</p>
+
                 </div>
               </div>
             </div>
 
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
-                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
                   <h3 class="panel-title">
                     <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                      href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                      What are the seminars?
+                      href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                      What happens after the seminars?
                     </a>
                   </h3>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                   <div class="panel-body px-3 mb-4">
-                    <p>Prospective mentors come to an 8-hour seminar, spread across multiple days to learn how to
-                      mentor, LEGO EV3 programming, FIRST LEGO League, and other tools mentors may need to help their
-                      teams succeed.</p>
+                    <p>If you are available to mentor, EV3EVERYWHERE will contact you closer to the beginning of the
+                      FLL season and assign you to a school you will be mentoring at. Before then, we ask
+                      prospective
+                      mentors to do some extra research on how to better succeed at FLL and ask us any questions
+                      they
+                      may have.</p>
 
                   </div>
                 </div>
@@ -156,337 +241,314 @@
 
               <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
-                  <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                     <h3 class="panel-title">
                       <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                        What happens after the seminars?
+                        href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        What happens during mentoring?
                       </a>
                     </h3>
                   </div>
-                  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body px-3 mb-4">
-                      <p>If you are available to mentor, EV3EVERYWHERE will contact you closer to the beginning of the
-                        FLL season and assign you to a school you will be mentoring at. Before then, we ask
-                        prospective
-                        mentors to do some extra research on how to better succeed at FLL and ask us any questions
-                        they
-                        may have.</p>
+                      <p>Mentors assist teams by guiding students and coaches resources, giving advice, and
+                        assisting
+                        teams with basic tasks. Many FLL teams meet once a week but will become more often as the
+                        FLL
+                        season progresses. We ask our mentors to attend as many meetings as they can.</p>
 
                     </div>
                   </div>
                 </div>
 
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                          What happens during mentoring?
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                      <div class="panel-body px-3 mb-4">
-                        <p>Mentors assist teams by guiding students and coaches resources, giving advice, and
-                          assisting
-                          teams with basic tasks. Many FLL teams meet once a week but will become more often as the
-                          FLL
-                          season progresses. We ask our mentors to attend as many meetings as they can.</p>
-
-                      </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        What are the requirements to mentor?
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body px-3 mb-4">
+                      <ul>
+                        <li>Mentors must be current high school students</li>
+                        <li>Mentors must be able to leave school by 3:30 P.M</li>
+                        <li>Mentors must have a reliable means of transportation</li>
+                        <li>Mentors must be able to pass a background check</li>
+                      </ul>
                     </div>
                   </div>
-
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                          What are the requirements to mentor?
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                      <div class="panel-body px-3 mb-4">
-                        <ul>
-                          <li>Mentors must be current high school students</li>
-                          <li>Mentors must be able to leave school by 3:30 P.M</li>
-                          <li>Mentors must have a reliable means of transportation</li>
-                          <li>Mentors must be able to pass a background check</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                          Why should you become a mentor?
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-                      <div class="panel-body px-3 mb-4">
-                        <p>Our mentors not only get an opportunity to give back to the community but also get other
-                          perks such as:</p>
-                        <ul>
-                          <li>Community service hours</li>
-                          <li>Possible leadership positions at local chapters</li>
-                          <li>Possible opportunities at EV3EVERYWHERE or paid robotics teaching opportunities</li>
-                          <li>Letters of Recommendation from partner elementary school FLL coaches</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                          Do I need to have any previous experience with robotics or programming?
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-                      <div class="panel-body px-3 mb-4">
-                        <p>Although some programming or robotics experience is certainly a plus, you will receive all
-                          the necessary tools and skills to mentor through our seminars.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading7">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                          How can I get involved?
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-                      <div class="panel-body px-3 mb-4">
-                        <p>We currently have chapters at Plano West Senior High School and Plano East Senior High
-                          School. If you are interested in starting a chapter at your high school, please contact
-                          us at<a href="mailto:mentors@ev3everywhere.com?subject=Starting a Chapter">
-                            mentors@ev3everywhere.com</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading8">
-                      <h3 class="panel-title">
-                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                          href="#collapse8" aria-expanded="true" aria-controls="collapse8">
-                          Other Questions
-                        </a>
-                      </h3>
-                    </div>
-                    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
-                      <div class="panel-body px-3 mb-4">
-                        <p>For other questions, contact us at <a
-                            href="mailto:mentors@ev3everywhere.com">mentors@ev3everywhere.com</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-
-
                 </div>
 
-              </div>
-      </section>
+                <div class="panel panel-default">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                        Why should you become a mentor?
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body px-3 mb-4">
+                      <p>Our mentors not only get an opportunity to give back to the community but also get other
+                        perks such as:</p>
+                      <ul>
+                        <li>Community service hours</li>
+                        <li>Possible leadership positions at local chapters</li>
+                        <li>Possible opportunities at EV3EVERYWHERE or paid robotics teaching opportunities</li>
+                        <li>Letters of Recommendation from partner elementary school FLL coaches</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                        Do I need to have any previous experience with robotics or programming?
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body px-3 mb-4">
+                      <p>Although some programming or robotics experience is certainly a plus, you will receive all
+                        the necessary tools and skills to mentor through our seminars.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading7">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                        How can I get involved?
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                    <div class="panel-body px-3 mb-4">
+                      <p>We currently have chapters at Plano West Senior High School and Plano East Senior High
+                        School. If you are interested in starting a chapter at your high school, please contact
+                        us at<a href="mailto:mentors@ev3everywhere.com?subject=Starting a Chapter">
+                          mentors@ev3everywhere.com</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading p-3 mb-3" role="tab" id="heading8">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                        Other Questions
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                    <div class="panel-body px-3 mb-4">
+                      <p>For other questions, contact us at <a
+                          href="mailto:mentors@ev3everywhere.com">mentors@ev3everywhere.com</a></p>
+                    </div>
+                  </div>
+                </div>
 
 
 
-
-      <!-- Footer -->
-      <footer class="page-footer font-small pt-4" id="footer">
-
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-
-          <!-- Grid row -->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-3 mt-md-0 mt-3">
-
-              <!-- Content -->
-              <h5 class="text-uppercase">EV3EVERYWHERE</h5>
-              <p>To reinvent how young minds access and pursue Science, Technology, Engineering, and
-                Math.</p>
-
-            </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3 bruh">
-
-              <!-- Links -->
-              <h5 class="text-uppercase">Quick Links</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://drive.google.com/file/d/1jY5R4FMG1Jb0jJpO-vh5l3PwZbqFmRHz/view?usp=sharing">Need
-                    donor info?</a>
-                </li>
-                <li>
-                  <a href="#!">Start a Chapter</a>
-                </li>
-                <li>
-                  <a href="#!">Sitemap</a>
-                </li>
-              </ul>
-
-            </div>
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3 bruh">
-
-              <!-- Links -->
-              <h5 class="text-uppercase">More</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!">Opportunities</a>
-                </li>
-                <li>
-                  <a href="#!">Using our Brand?</a>
-                </li>
-
-              </ul>
-
-            </div>
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3 bruh">
-              <h5 class="text-uppercase ">Find Us</h5>
-              <p>
-                <i class="fas fa-home mr-3"></i> <a href="https://goo.gl/maps/jDG3j9un2SfhWJk76"> Preston Rd. Suite
-                  #200, Plano, TX 75024, USA</a></p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i><a
-                  href="mailto:support@ev3everywhere.com">support@ev3everywhere.com</a></p>
-
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row -->
-
-        </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="container1 container">
-          <div class="row">
-            <div class="col-lg-7 col-md-7 col-sm-12 footer-copyright py-3 footer_copy">
-              <a href="https://ev3everywhere.com">© 2020 Copyright: EV3EVERYWHERE</a>
-            </div>
-            <div class="col-md-5 col-lg-5 ml-lg-0 bruh1">
-
-              <!-- Social buttons -->
-              <div class="text-center text-md-right">
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
-                      href="https://www.facebook.com/EV3EVERYWHERE" target="_blank">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
-                      href="https://twitter.com/ev3everywhere" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
-                      href="https://www.instagram.com/ev3everywhere/" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
-                      href="https://www.linkedin.com/company/ev3everywhere/" target="_blank">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                </ul>
               </div>
 
             </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4" id="footer">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase">EV3EVERYWHERE</h5>
+            <p>To reinvent how young minds access and pursue Science, Technology, Engineering, and
+              Math.</p>
+
           </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 bruh">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Quick Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://drive.google.com/file/d/1jY5R4FMG1Jb0jJpO-vh5l3PwZbqFmRHz/view?usp=sharing">Need
+                  donor info?</a>
+              </li>
+              <li>
+                <a href="#!">Start a Chapter</a>
+              </li>
+              <li>
+                <a href="#!">Sitemap</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 bruh">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">More</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Opportunities</a>
+              </li>
+              <li>
+                <a href="#!">Using our Brand?</a>
+              </li>
+
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 bruh">
+            <h5 class="text-uppercase ">Find Us</h5>
+            <p>
+              <i class="fas fa-home mr-3"></i> <a href="https://goo.gl/maps/jDG3j9un2SfhWJk76"> Preston Rd. Suite
+                #200, Plano, TX 75024, USA</a></p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i><a
+                href="mailto:support@ev3everywhere.com">support@ev3everywhere.com</a></p>
+
+          </div>
+          <!-- Grid column -->
 
         </div>
+        <!-- Grid row -->
 
-        <!-- Copyright -->
+      </div>
+      <!-- Footer Links -->
 
-      </footer>
-      <!-- Footer -->
+      <!-- Copyright -->
+      <div class="container1 container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-12 footer-copyright py-3 footer_copy">
+            <a href="https://ev3everywhere.com">© 2020 Copyright: EV3EVERYWHERE</a>
+          </div>
+          <div class="col-md-5 col-lg-5 ml-lg-0 bruh1">
 
+            <!-- Social buttons -->
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
+                    href="https://www.facebook.com/EV3EVERYWHERE" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
+                    href="https://twitter.com/ev3everywhere" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
+                    href="https://www.instagram.com/ev3everywhere/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1 footer-icon bruh2"
+                    href="https://www.linkedin.com/company/ev3everywhere/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
+          </div>
+        </div>
 
+      </div>
 
+      <!-- Copyright -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    </footer>
+    <!-- Footer -->
 
 
-    <script src="..\js\main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+
+  <script src="..\js\main.js"></script>
 </body>
 
 </html>
