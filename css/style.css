@@ -284,6 +284,8 @@ h6 {
 
 #nav-mobile .modal-header {
     color: #f5f5f5;
+    border-bottom: 2px;
+    border-bottom: solid;
     border-bottom-color: #c9fffe;
 }
 
