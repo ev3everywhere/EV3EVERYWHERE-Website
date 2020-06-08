@@ -1,3 +1,7 @@
+window.onresize = function () {
+    navTransition();
+};
+
 window.onscroll = function () {
     navScroll();
 };
@@ -27,9 +31,6 @@ function loadUrl() {
     window.location.href = "https://charity.gofundme.com/o/en/campaign/ev3everywhere1/ev3everywhere";
 }
 
-window.onresize = function () {
-    navTransition();
-};
 function navTransition() {
     $('#left_modal_sm').modal('hide')
     $('body').removeClass('modal-open');

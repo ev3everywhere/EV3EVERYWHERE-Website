@@ -47,6 +47,10 @@ h6 {
     justify-content: center;
 }
 
+.btn:focus {
+    box-shadow: none;
+}
+
 /*--------------------------------------------------------------
 # Navbar Section
 # Web Nav
@@ -63,29 +67,56 @@ h6 {
     }
 }
 
-#nav .navbar-logo {
-    transition: all 0.4s ease-in-out 0s;
-    height: 8vh;
-}
+@media (orientation: portrait) {
+    #nav .navbar-logo {
+        transition: all 0.4s ease-in-out 0s;
+        height: 8vw;
+    }
 
-#nav #logo {
-    background: url(../img/SVG/EV3\ Primary\ Logo.svg) left center no-repeat;
-    width: 0vh;
-}
+    #nav #logo {
+        background: url(../img/SVG/EV3\ Primary\ Logo.svg) left center no-repeat;
+        width: 0vh;
+    }
 
-#nav #logo.scrolled {
-    width: 8vh;
-}
+    #nav #logo.scrolled {
+        width: 8vw;
+    }
 
-#nav #logo-extended {
-    background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-    width: calc(300/94*8vh);
-}
+    #nav #logo-extended {
+        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
+        width: calc(300/94*8vw);
+    }
 
-#nav #logo-extended.scrolled {
-    width: 0;
-}
+    #nav #logo-extended.scrolled {
+        width: 0;
+    }
 
+}
+@media (orientation: landscape) {
+    #nav .navbar-logo {
+        transition: all 0.4s ease-in-out 0s;
+        height: 8vh;
+    }
+
+    #nav #logo {
+        background: url(../img/SVG/EV3\ Primary\ Logo.svg) left center no-repeat;
+        width: 0vh;
+    }
+
+    #nav #logo.scrolled {
+        width: 8vh;
+    }
+
+    #nav #logo-extended {
+        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
+        width: calc(300/94*8vh);
+    }
+
+    #nav #logo-extended.scrolled {
+        width: 0;
+    }
+
+}
 #nav .navbar-default {
     transition: 500ms ease;
     background: #0F0F0F;
@@ -169,16 +200,9 @@ h6 {
 /*--------------------------------------------------------------
 # Mobile Nav
 --------------------------------------------------------------*/
-#nav-mobile .nav-text {
-    color: #f5f5f5;
-}
 
 #nav-mobile .nav-button {
     color: #f5f5f5;
-}
-
-#nav-mobile .modal-content {
-    background-color: #0F0F0F;
 }
 
 #nav-mobile .navbar-default.scrolled {
@@ -189,7 +213,7 @@ h6 {
     transition: 500ms ease;
     background: #0F0F0F;
 }
-
+@media (orientation: portrait) {
 #nav-mobile .navbar-logo {
     transition: all 0.4s ease-in-out 0s;
     height: 8vh;
@@ -211,6 +235,71 @@ h6 {
 
 #nav-mobile #logo-extended-m.scrolled {
     width: 0;
+}
+
+}
+@media (orientation: landscape) {
+    #nav-mobile .navbar-logo {
+        transition: all 0.4s ease-in-out 0s;
+        height: 8vw;
+    }
+
+    #nav-mobile #logo-icon {
+        background: url(../img/SVG/EV3\ Icon\ Logo.svg) left center no-repeat;
+        width: 0vh;
+    }
+
+    #nav-mobile #logo-icon.scrolled {
+        width:8vw;
+    }
+
+    #nav-mobile #logo-extended-m {
+        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
+        width: calc(300/94*8vw);
+    }
+
+    #nav-mobile #logo-extended-m.scrolled {
+        width: 0vh;
+    }
+
+}
+@media (orientation: portrait) {
+
+    #nav-mobile .modal.left .modal-dialog.modal-sm,
+    #nav-mobile.modal.right .modal-dialog.modal-sm {
+        width: 75vw;
+    }
+}
+@media (orientation: landscape) {
+
+    #nav-mobile .modal.left .modal-dialog.modal-sm,
+    #nav-mobile.modal.right .modal-dialog.modal-sm {
+        width: 45vw;
+    }
+}
+
+#nav-mobile .modal-content {
+    background-color: #0F0F0F;
+}
+
+#nav-mobile .modal-header {
+    color: #f5f5f5;
+    border-bottom-color: #c9fffe;
+}
+
+#nav-mobile .close-modal {
+    color: #f5f5f5;
+    background: 00000000;
+    border: none;
+    font-family: ibm-plex-sans,
+        sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+#nav-mobile .nav-text {
+    color: #f5f5f5;
 }
 
 /*--------------------------------------------------------------
