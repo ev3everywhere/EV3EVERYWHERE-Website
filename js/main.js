@@ -32,6 +32,6 @@ function loadUrl() {
 }
 
 function navTransition() {
-    $('#left_modal_sm').modal('hide')
+    $('#left_modal_sm').modal('hide');
     $('body').removeClass('modal-open');
 }
