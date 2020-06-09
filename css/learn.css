@@ -96,54 +96,85 @@
 
 
 
+
+.part{
+  background-color: #eee;
   
-#learn .vertical-menu a {
-    background-color: #eee;
+}
+  
+.part p{
+    
     color: black;
-    display: block;
-    padding: 12px;
+    
+    
     text-decoration: none;
     font-size: calc(15px + .5vw);
   }
   
+.part a{
+  font-size: calc(12.5px + .5vw);
+  color: black;
+  display: inline;
+}
 
+.part:hover {
+  background-color: #3e84bd;
+}
 
-#learn .vertical-menu a:hover {
-    background-color: #3e84bd;
-    color: white;
-    
+.part:hover  a{
+  color: white;
+}
 
-  }
   
-#learn .vertical-menu a.active {
+.part1 {
     background-color: #254E70;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-size: calc(15px + .5vw);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
+
+.part1 a{
+  color: white;
+}
+
 
 #learn .vertical-menu .cube{
     max-width: 70px;
     padding-right: 10px;
     padding-left: 15px;
+    display: inline;
+    
   }
+
 
 #learn .vertical-menu .video1{
   max-width: 100px;
-  padding-right: 10px;
-  padding-left: 30px;
+  
+  display: inline;
 }
+
 
 #learn .vertical-menu .page{
   max-width: 100px;
-  padding-right: 15px;
-  padding-left: 35px;
+  
+  display: inline;
 }
+
 
 #learn .vertical-menu .bottom-a {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
  }
+
+
+ #learn .vertical-menu p{
+   display: inline;
+ }
+
 
  #leftCol {
     position: absolute;
@@ -155,6 +186,7 @@
     max-height: 90vh;
   }
   
+
   @media (orientation: portrait) {
     .show-only-on-large {
       display: none;

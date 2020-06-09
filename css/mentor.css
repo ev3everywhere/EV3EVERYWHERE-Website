@@ -3,112 +3,40 @@
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-    width: 100%;
+.hero {
+    /* Sizing */
+    
     height: 100vh;
-    background: url(../img/SVG/Mentor\ Hero.svg) top center;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+
+    /* Background styles */
+    background-image: url(../img/SVG/Mentor\ Hero.svg);
     background-size: cover;
-    position: relative;
-}
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-#about {
-    background: #282828;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-#about .about-title {
-    text-align: center;
-    justify-content: center;
+.hero h1 {
+    /* Text styles */
+    font-size: calc(75px + .75vw);
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
     color: white;
-    padding: 2%;
-    font-weight: 600;
-    font-size: calc(35px + .75vw);
 }
 
-
-
-#about .about-h3 {
-    text-align: left;
+.hero h2 {
     color: white;
-    font-weight: 800;
-
-    font-size: calc(20px + .5vw);
 }
 
-#about .about-p {
-    color: white;
-    font-size: calc(15px + .5vw);
-}
-
-#about .about-img {
-    width: 70%;
-    height: auto;
-    color: white;
-    border-radius: 15px;
-}
-
-/*--------------------------------------------------------------
-# what Section. This is crazy
---------------------------------------------------------------*/
-#what {
-    background: #254E70;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 2.5%;
-    padding-top: 1%;
-    align-items: center;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#what .what-title {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 2%;
-    font-weight: 600;
-    font-size: calc(50px + .75vw);
-}
-
-#what .what-h3 {
-    text-align: center;
-    color: white;
-    font-weight: 800;
-
-    font-size: calc(35px + .75vw);
-}
-
-#what .what-p {
-    color: white;
-    text-align: left;
-    font-size: calc(25px + .5vw);
-}
-
-#what .what-img {
-    width: 40%;
-    height: auto;
-}
-
-#what .btn-default {
-    align-items: center;
-    justify-content: center;
-    color: #282828;
-    line-height: 20px;
-    border: 2px solid #3E84BD;
-    border-radius: 40px;
-    background: transparent;
-    transition: all 0.3s ease 0s;
-}
-
-#what .btn-default:hover {
-    color: #F5F5F5;
-    background: #254E70;
-    border: 2px solid #254E70;
-}
 
 /*--------------------------------------------------------------
 # Register Section
@@ -134,21 +62,26 @@
 }
 
 #register .register-h3 {
-    text-align: center;
+    text-align: left;
     color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #register .register-p {
+    text-align: left;
     color: black;
-    font-size: calc(25px + .5vw);
+    font-size: calc(10px + .5vw);
 }
 
 #register .register-img {
     width: 40%;
     height: auto;
+}
+
+#register .img-cont {
+    text-align: end;
 }
 
 #register .btn-default {
@@ -158,11 +91,10 @@
     color: #282828;
     line-height: 20px;
     border: 2px solid #3E84BD;
-    border-radius: 40px;
+    border-radius: 10px;
     background: transparent;
     transition: all 0.3s ease 0s;
-    width: 50%;
-    height: 70%;
+    width: 40%;
     font-size:calc(20px + .5vw);
     
 }
@@ -174,14 +106,16 @@
 }
 
 #register .neelisafoolpt3 {
-    padding: 5%;
+    padding-top: 5%;
+    text-align: left;
+    
 }
 
 #register .register-text {
     color: black;
     font-size: calc(20px + .10vw);
     padding-top: 2.5%;
-    padding-bottom: 2.5%
+    padding-bottom: 2.5%;
 }
 
 /*--------------------------------------------------------------
@@ -206,29 +140,32 @@
 }
 
 #mentor .mentor-h3 {
-    text-align: center;
+    text-align: left;
     color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #mentor .mentor-p {
     color: black;
-    font-size: calc(25px + .5vw);
+    font-size: calc(10px + .5vw);
 }
 
 #mentor .mentor-img {
-    justify-self: center;
     width: 60%;
     height: auto;
+}
+
+#mentor .img-cont {
+    text-align: end;
 }
 
 /*--------------------------------------------------------------
 # Attend Section
 --------------------------------------------------------------*/
 #attend {
-    background: #282828;
+    background: #f5f5f5;
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-bottom: 5%;
@@ -236,16 +173,17 @@
 }
 
 #attend .attend-h3 {
-    text-align: center;
-    color: #f5f5f5;
+    text-align: right;
+    color: black;
     font-weight: 800;
 
-    font-size: calc(35px + .75vw);
+    font-size: calc(50px + .75vw);
 }
 
 #attend .attend-p {
-    color: #f5f5f5;
-    font-size: calc(25px + .5vw);
+    text-align: right;
+    color: black;
+    font-size: calc(10px + .5vw);
 }
 
 #attend .attend-img {
@@ -254,3 +192,113 @@
     width: 70%;
 }
 
+
+#attend .img-cont {
+    text-align: start;
+}
+
+
+
+
+
+@media (max-width: 768px) { 
+
+    .footer_copy {
+      text-align: center;
+
+    }
+
+    #attend .attend-h3 {
+        text-align: center;
+        font-size: calc(30px + .75vw);
+    }
+
+    #attend .attend-p {
+        text-align: center;
+        font-size: calc(15px + .75vw);
+    }
+
+    #mentor .mentor-h3 {
+        text-align: center;
+        font-size: calc(30px + .75vw);
+    }
+
+    #mentor .mentor-p {
+        text-align: center;
+        font-size: calc(15px + .75vw);
+    }
+
+    #register .register-h3 {
+        text-align: center;
+        font-size: calc(30px + .75vw);
+    }
+
+    #register .register-p {
+        text-align: center;
+        font-size: calc(15px + .75vw);
+    }
+
+    #register .img-cont {
+        text-align: center;
+    }
+
+    #attend .img-cont {
+        text-align: center;
+    }
+
+    #mentor .img-cont {
+        text-align: center;
+    }
+    
+    #register .neelisafoolpt3 {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;   
+    }
+
+  
+
+
+  }
+
+
+
+  @media (max-width: 992px) { 
+
+  .hero {
+    background-image: url(../img/SVG/Mentor\ Hero\ -\ mobile.svg);
+}
+
+  
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+        /* Text styles */
+        font-size: calc(55px + .75vw);
+    }
+  }
+
+  @media (max-width: 760px) { 
+
+    .show-only-on-large {
+      display: none;
+    }
+
+    .show-only-on-small {
+        display: block;
+        width: 90vw;
+    }
+  }
+   
+  @media (min-width: 760px) { 
+
+    .show-only-on-large {
+      display: block;
+
+    }
+
+    .show-only-on-small {
+        display: none;
+    }
+  }

@@ -1,24 +1,37 @@
+window.onresize = function () {
+    navTransition();
+};
+
 window.onscroll = function () {
-    navTranstition()
-    growShrinkLogo()
-}
+    navScroll();
+};
 
-function navTranstition() {
+function navScroll() {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    $("#logo").toggleClass('scrolled', $(this).scrollTop() > 50);
+    $("#logo-extended").toggleClass('scrolled', $(this).scrollTop() > 50);
+    $("#logo-icon").toggleClass('scrolled', $(this).scrollTop() > 50);
+    $("#logo-extended-m").toggleClass('scrolled', $(this).scrollTop() > 50);
 }
 
-var Logo = document.getElementById("Logo");
-var endOfDocumentTop = 150;
-var size = 0;
+var hoverFalse = window.matchMedia("(any-hover:none)");
+hoverExists(hoverFalse); // Call listener function at run time
+hoverFalse.addListener(hoverExists); // Attach listener function on state changes
 
-function growShrinkLogo() {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-
-    if (size == 0 && scroll > endOfDocumentTop) {
-        Logo.className = 'smallLogo';
-        size = 1;
-    } else if (size == 1 && scroll <= endOfDocumentTop) {
-        Logo.className = 'largeLogo';
-        size = 0;
+function hoverExists(hoverFalse) {
+    if (hoverFalse.matches) { // If media query matches
+        document.querySelector("#donateButton").href = "JavaScript:setTimeout(loadUrl,40)";
+    } else {
+        document.querySelector("#donateButton").href = "https://charity.gofundme.com/o/en/campaign/ev3everywhere1/ev3everywhere";
     }
+}
+
+
+function loadUrl() {
+    window.location.href = "https://charity.gofundme.com/o/en/campaign/ev3everywhere1/ev3everywhere";
+}
+
+function navTransition() {
+    $('#left_modal_sm').modal('hide')
+    $('body').removeClass('modal-open');
 }
