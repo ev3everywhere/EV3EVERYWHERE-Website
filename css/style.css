@@ -73,7 +73,7 @@ h6 {
 @media (orientation: portrait) {
     #nav .navbar-logo {
         transition: all 0.4s ease-in-out 0s;
-        height: 8vw;
+        height: 5vh;
     }
 
     #nav #logo {
@@ -82,12 +82,12 @@ h6 {
     }
 
     #nav #logo.scrolled {
-        width: 8vw;
+        width: 5vh;
     }
 
     #nav #logo-extended {
         background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*8vw);
+        width: calc(300/94*5vh);
     }
 
     #nav #logo-extended.scrolled {
@@ -98,7 +98,7 @@ h6 {
 @media (orientation: landscape) {
     #nav .navbar-logo {
         transition: all 0.4s ease-in-out 0s;
-        height: 8vw;
+        height: 5vw;
     }
 
     #nav #logo {
@@ -107,12 +107,12 @@ h6 {
     }
 
     #nav #logo.scrolled {
-        width: 8vw;
+        width: 5vw;
     }
 
     #nav #logo-extended {
         background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*8vw);
+        width: calc(300/94*5vw);
     }
 
     #nav #logo-extended.scrolled {
@@ -220,7 +220,7 @@ h6 {
 @media (orientation: portrait) {
     #nav-mobile .navbar-logo {
         transition: all 0.4s ease-in-out 0s;
-        height: 8vh;
+        height: 5vh;
     }
 
     #nav-mobile #logo-icon {
@@ -229,12 +229,12 @@ h6 {
     }
 
     #nav-mobile #logo-icon.scrolled {
-        width: 8vh;
+        width: 5vh;
     }
 
     #nav-mobile #logo-extended-m {
         background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*8vh);
+        width: calc(300/94*5vh);
     }
 
     #nav-mobile #logo-extended-m.scrolled {
@@ -245,7 +245,7 @@ h6 {
 @media (orientation: landscape) {
     #nav-mobile .navbar-logo {
         transition: all 0.4s ease-in-out 0s;
-        height: 8vw;
+        height: 5vw;
     }
 
     #nav-mobile #logo-icon {
@@ -254,12 +254,12 @@ h6 {
     }
 
     #nav-mobile #logo-icon.scrolled {
-        width: 8vw;
+        width: 5vw;
     }
 
     #nav-mobile #logo-extended-m {
         background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*8vw);
+        width: calc(300/94*5vw);
     }
 
     #nav-mobile #logo-extended-m.scrolled {
