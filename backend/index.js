@@ -1,6 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyparser from 'body-parser';
+import routes from './Routes/userRoute';
+
+
 
 const app = express();
 const PORT = 3000;
@@ -19,6 +22,11 @@ mongoose.connect('mongodb://localhost/learnerDB', {
 
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
+
+
+routes(app);
+
+
 
 app.get('/' , (req, res) =>
     res.send(`Basic server running at ${PORT}`)
