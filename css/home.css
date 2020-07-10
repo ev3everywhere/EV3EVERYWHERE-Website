@@ -1,0 +1,352 @@
+@import "style.css";
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+.hero {
+    /* Sizing */
+    
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+
+    /* Background styles */
+    background-image: url(../img/2x/Home\ Page\ Hero@2x.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: calc(75px + .75vw);
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: white;
+    /* Border styles */
+    border: 3px solid white;
+}
+
+.hero .btn:hover {
+    border: 3px solid #2DAEFD;
+    color: #2DAEFD;
+}
+
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+#about {
+    background: #f5f5f5;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
+
+#about .about-title {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 2%;
+    font-weight: 800;
+    font-size: calc(60px + .75vw);
+}
+
+
+
+#about .about-h3 {
+    text-align: left;
+    color: black;
+    font-weight: 800;
+
+    font-size: calc(35px + .5vw);
+}
+
+#about .about-p {
+    color: black;
+    font-size: calc(15px + .5vw);
+}
+
+#about .about-img {
+    width: 70%;
+    height: auto;
+    color: #000000;
+}
+
+/*--------------------------------------------------------------
+# Impact Section
+--------------------------------------------------------------*/
+
+#impact {
+    background: #282828;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
+
+#impact .impact-title {
+    text-align: center;
+    justify-content: center;
+    color: #f5f5f5;
+    padding: 2%;
+    font-weight: 800;
+    font-size: calc(40px + .75vw);
+}
+
+#impact .impact-h3 {
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 450;
+    font-size: 1.85vw;
+    font-size: calc(20px + .5vw);
+}
+
+#impact .impact-h2 {
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 1.85vw;
+    font-size: calc(35px + .75vw);
+}
+
+/*--------------------------------------------------------------
+# Join Us Section
+--------------------------------------------------------------*/
+#join-us {
+    background: linear-gradient(rgba(43, 33, 20, 0.65), rgba(43, 33, 20, 0.65)),
+        url(../img/1x/ju-image.png) fixed center top;
+    background-size: cover;
+    padding: 80px 0;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+    #join-us {
+        background-attachment: scroll;
+    }
+}
+
+#join-us .ju-title {
+    color: #fff;
+    font-size: calc(28px + .5vw);
+    font-weight: 700;
+}
+
+#join-us .ju-text {
+    color: #fff;
+    font-size: calc(15px + .5vw);
+}
+
+@media (min-width: 769px) {
+    #join-us .ju-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        min-width: 150px;
+    }
+}
+
+#join-us .btn-default {
+    color: #fff;
+    line-height: 20px;
+    border: 2px solid #c9fffe;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+#join-us .btn-default:hover {
+    color: #FFF;
+    background: #336666;
+    border: 2px solid #336666;
+}
+
+
+/*--------------------------------------------------------------
+# Team section
+--------------------------------------------------------------*/
+
+#team {
+    background: #f5f5f5;
+    color: black;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}
+
+#team .team-title {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 2%;
+    font-weight: 800;
+    font-size: calc(40px + .75vw);
+}
+
+#team img {
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+}
+
+#team .team-h3 {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    font-size: 1.85vw;
+    font-size: calc(15px + .5vw);
+}
+
+#team .team-p {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 1.85vw;
+    font-size: calc(10px + .5vw);
+}
+
+#contact {
+    background-color: #282828;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#contact h2 {
+    text-align: center;
+    justify-content: center;
+    color: #f5f5f5;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(55px + .75vw);
+
+}
+
+#contact .accordion-section .panel-default>.panel-heading {
+    border: 0;
+    background: #f5f5f5;
+
+    padding: 0;
+}
+
+#contact .accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: calc(20px + .75vw);
+    color: #282828;
+    text-decoration: underline solid #3E84BD;
+    font-family: proxima-nova, sans-serif;
+}
+
+#contact .accordion-section .panel-default .panel-title a:after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+
+#contact .accordion-section .panel-default .panel-title a.collapsed:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+}
+
+#contact .accordion-section .panel-default .panel-body {
+    font-size: calc(15px + .5vw);
+    color: white;
+}
+
+@media (max-width: 1024px) { 
+
+    .hero {
+      background-image: url(../img/SVG/Home\ Page\ Hero\ -\ Mobile.svg);
+  }
+  
+  #about .about-img {
+    width: 35%;
+}
+
+
+    
+}
+
+@media (max-width: 768px) { 
+
+    #team img {
+        width: 50%;
+        border-radius: 15px;
+    }
+
+    #about .about-title {
+        font-size: calc(35px + .75vw);
+    }
+
+    #about .about-h3 {
+        font-size: calc(25px + .5vw);
+    }
+    
+    #about .about-img {
+        display: none;
+    }
+
+    #impact .impact-h3 {
+        
+        font-size: calc(15px + .5vw);
+    }
+    
+    #impact .impact-h2 {
+       
+        font-size: calc(25px + .75vw);
+    }
+
+    #impact .impact-title {
+        font-size: calc(35px + .75vw);
+    }
+
+    #team .team-title {
+        font-size: calc(30px + .75vw);
+    }
+
+    #contact h2 {
+        font-size: calc(35px + .75vw);
+    }
+
+  
+
+}
