@@ -1,0 +1,18 @@
+@import "style.css";
+
+
+#intro {
+    padding-top: 5%;
+    background-color: white;
+}
+
+#intro img {
+    width: 100%;
+}
+
+#intro h1{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #254e70;
+    font-size: calc(45px + .25vw);
+}
