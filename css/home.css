@@ -7,7 +7,7 @@
     background-color: white;
 }
 
-#intro img {
+#intro .tree {
     width: 50vw;
     padding: 0;
 }
@@ -24,4 +24,19 @@
     background-color: #9ADEB3;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+#intro a:hover {
+    font-size: calc(20px + .25vw);
+    background-color: #9ADEB3;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#intro .divider {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
