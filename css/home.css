@@ -41,7 +41,7 @@
     padding-bottom: 5%;
 }
 
-#about-us hr {
+.hr-black hr {
     width:100%;
     height: 1px;
     background-color: black;
@@ -51,7 +51,7 @@
     padding-top: 5%;
 }
 
-#about-us P {
+#about-us p {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -61,4 +61,26 @@
 #projects-text p {
     text-align: center;
     font-size: 1em;
+    padding-bottom: 5%;
+}
+
+#impact .col {
+    text-align: center;
+}
+
+#impact-labels p {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#impact-sublabels P {
+    font-size: 20px;
+    text-align: center;
+}
+
+#impact img {
+    border-radius: 100px;
+    width: 70%;
+    height: 40%;
 }
