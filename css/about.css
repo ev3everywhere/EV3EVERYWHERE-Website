@@ -1,0 +1,105 @@
+@import "style.css";
+
+#intro {
+    padding-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+#intro .tree {
+    width: 50vw;
+    padding: 0;
+}
+
+#intro h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #254e70;
+    font-size: calc(55px + .25vw);
+}
+
+#intro a {
+    font-size: calc(20px + .25vw);
+    background-color: #9ADEB3;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#intro a:hover {
+    font-size: calc(20px + .25vw);
+    background-color: #9ADEB3;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#intro .divider {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+#about-us {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    background-color: #f8f8f8;
+}
+
+#about-us h1 {
+    padding-top: 5%;
+}
+
+#about-us p {
+    font-size: calc(20px + .25vw);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+}
+
+#projects {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#projects img {
+    width: 50%;
+}
+
+#projects h3 {
+    font-size: calc(25px + .25vw);
+    color: black;
+}
+
+#projects h1 {
+    padding-bottom: 2.5%;
+}
+
+#impact .col {
+    text-align: center;
+}
+
+#projects p {
+    font-size: calc(15px + .25vw);
+    color: black;
+}
+
+#impact-labels p {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#impact-sublabels P {
+    font-size: 20px;
+    text-align: center;
+}
+
+#impact img {
+    border-radius: 100px;
+    width: 70%;
+    height: 40%;
+}
