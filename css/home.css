@@ -94,13 +94,19 @@
     color: black;
 }
 
-#impact-sublabels P {
-    font-size: 20px;
+#impact-sublabels {
     text-align: center;
+
+}
+
+#impact-sublabels p {
+    font-size: calc(15px + .25vw);
+    text-align: center;
+    color: #666666;
 }
 
 #impact img {
-    border-radius: 100px;
-    width: 70%;
-    height: 40%;
+    border-radius: 150px;
+    width: 80%;
+    height: calc(10vw * 2);
 }
