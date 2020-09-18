@@ -89,15 +89,12 @@ nav img {
     -webkit-clip-path: circle(1200px at 90% -15%);
   }
 
-  .spacer {
-    height: 0%;
-    width: 0%;
+  .hidden {
+
   }
 
-  .spacer.open {
-    height: 100vh;
-    width: auto;
-    transition: all .4s ease;
+  .hidden.open {
+    display: none;
   }
 
  
@@ -110,24 +107,24 @@ nav img {
     font-size: 25px;
   }
   
-  .nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
-  }
-  
   .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
+    transition: all 0.5s ease .1s;
   }
   
   .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
+    transition: all 0.5s ease .3s;
   }
-
+  
   .nav-links li:nth-child(4) {
-    transition: all 0.5s ease 0.8s;
+    transition: all 0.5s ease .5s;
   }
 
   .nav-links li:nth-child(5) {
-    transition: all 0.5s ease 0.10s;
+    transition: all 0.5s ease .7s;
+  }
+
+  .nav-links li:nth-child(6) {
+    transition: all 0.5s ease .9s;
   }
 
   .nav-links li.fade {
