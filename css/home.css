@@ -89,16 +89,9 @@ nav img {
     -webkit-clip-path: circle(1200px at 90% -15%);
   }
 
-  .spacer {
-    height: 0%;
-    width: 0%;
-  }
+  
 
-  .spacer.open {
-    height: 100vh;
-    width: auto;
-    transition: all .4s ease;
-  }
+ 
   
   .nav-links li {
     opacity: 0;
