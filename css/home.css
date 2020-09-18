@@ -133,10 +133,5 @@ nav img {
   .nav-links li.fade {
     opacity: 1;
   }
-
-  .hidden {
-    display: none !important
-  }
-
 }
 
