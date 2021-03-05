@@ -1,3 +1,3 @@
 # ev3everywhere.com
 
-The development origin branch is used for source controll while making chages to the website which should immediately be published. 
+The dev main branch is used for source control while making changes to the website which are in the pipeline to be published.
