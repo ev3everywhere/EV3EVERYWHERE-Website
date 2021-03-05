@@ -73,21 +73,21 @@ h6 {
 @media (orientation: portrait) {
     #nav .navbar-logo {
         transition: all 0.4s ease-in-out 0s;
-        height: 5vh;
+        height: 4vh;
     }
 
     #nav #logo {
-        background: url(../img/SVG/EV3\ Primary\ Logo.svg) left center no-repeat;
-        width: 0vh;
+        background: url(../img/SVG/EV3EVERWHERE\ Primary\ Logo.svg) left center no-repeat;
+        width: 0;
     }
 
     #nav #logo.scrolled {
-        width: 5vh;
+        width: 4vh;
     }
 
     #nav #logo-extended {
-        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*5vh);
+        background: url(../img/SVG/EV3EVERWHERE\ Extended\ Logo.svg) left center no-repeat;
+        width: calc(995/310*4vh);
     }
 
     #nav #logo-extended.scrolled {
@@ -102,7 +102,7 @@ h6 {
     }
 
     #nav #logo {
-        background: url(../img/SVG/EV3\ Primary\ Logo.svg) left center no-repeat;
+        background: url(../img/SVG/EV3EVERWHERE\ Primary\ Logo.svg) left center no-repeat;
         width: 0vh;
     }
 
@@ -111,8 +111,8 @@ h6 {
     }
 
     #nav #logo-extended {
-        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
-        width: calc(300/94*5vw);
+        background: url(../img/SVG/EV3EVERWHERE\ Extended\ Logo.svg) left center no-repeat;
+        width: calc(995/310*5vw);
     }
 
     #nav #logo-extended.scrolled {
@@ -224,7 +224,7 @@ h6 {
     }
 
     #nav-mobile #logo-icon {
-        background: url(../img/SVG/EV3\ Icon\ Logo.svg) left center no-repeat;
+        background: url(../img/SVG/EV3EVERWHERE\ Icon.svg) left center no-repeat;
         width: 0vh;
     }
 
@@ -233,7 +233,7 @@ h6 {
     }
 
     #nav-mobile #logo-extended-m {
-        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
+        background: url(../img/SVG/EV3EVERWHERE\ Extended\ Logo.svg) left center no-repeat;
         width: calc(300/94*5vh);
     }
 
@@ -249,7 +249,7 @@ h6 {
     }
 
     #nav-mobile #logo-icon {
-        background: url(../img/SVG/EV3\ Icon\ Logo.svg) left center no-repeat;
+        background: url(../img/SVG/EV3EVERWHERE\ Icon.svg) left center no-repeat;
         width: 0vh;
     }
 
@@ -258,7 +258,7 @@ h6 {
     }
 
     #nav-mobile #logo-extended-m {
-        background: url(../img/SVG/EV3\ Extended\ Logo.svg) left center no-repeat;
+        background: url(../img/SVG/EV3EVERWHERE\ Extended\ Logo.svg) left center no-repeat;
         width: calc(300/94*5vw);
     }
 
