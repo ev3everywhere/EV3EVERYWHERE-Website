@@ -78,7 +78,14 @@
     font-size: calc(60px + .75vw);
 }
 
-
+.logo-h3 {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 2%;
+    font-weight: 600;
+    font-size: calc(25px + .75vw); 
+}
 
 #about .about-h3 {
     text-align: left;
@@ -99,6 +106,11 @@
     color: #000000;
 }
 
+.partner-img {
+    width: 40%;
+    height: auto;
+    
+}
 /*--------------------------------------------------------------
 # Impact Section
 --------------------------------------------------------------*/
