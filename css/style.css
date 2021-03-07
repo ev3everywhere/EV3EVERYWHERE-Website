@@ -429,12 +429,20 @@ h6 {
     background-color: #254E70;
 }
 
-#footer .bruh {
+#footer .addressHeader{
     text-align: center;
+}
+
+#footer .addressContent {
+    text-align: right;
 }
 
 #footer .bruh1 {
     padding-top: 1.25%;
+    padding-right: 0px;
+}
+#footer .footer_copy{
+    padding-left: 0px;
 }
 
 #footer a {
