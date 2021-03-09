@@ -179,13 +179,23 @@ h6 {
 }
 
 #nav .dropdown-menu {
+  background: #0f0f0f;
+}
+
+#nav .dropdown-menu.scrolled {
   background: #0f0f0f90;
 }
+
 #nav .dropdown:hover .dropdown-menu {
   display: block;
 }
 #nav .dropdown-menu {
   margin-top: 0;
+}
+
+#nav .dropdown-item:hover{
+    background: none;
+    color: #c9fffe;
 }
 
 @media (any-hover: none) {

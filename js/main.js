@@ -7,7 +7,8 @@ window.onscroll = function () {
 };
 
 function navScroll() {
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+    $("#navbarDropdown-Menu").toggleClass("scrolled", $(this).scrollTop() > 50);
     $("#logo").toggleClass('scrolled', $(this).scrollTop() > 50);
     $("#logo-extended").toggleClass('scrolled', $(this).scrollTop() > 50);
     $("#logo-icon").toggleClass('scrolled', $(this).scrollTop() > 50);
