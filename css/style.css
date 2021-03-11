@@ -153,6 +153,29 @@ h6 {
   transform: scaleX(1);
 }
 
+#nav a.middleDrop {
+  position: relative;
+}
+
+#nav a.middleDrop:before,
+#nav a.middleDrop.hovered:before {
+  content: url(../img/SVG/Dropdown.svg);
+  position: absolute;
+  width: 100%;
+  top: 33px;
+  left: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+#nav a.middleDrop:hover:before,
+#nav a.middleDrop.hovered:before
+{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 #nav .nav-text {
   color: #d6d7d1;
 }
@@ -407,7 +430,6 @@ h6 {
 }
 
 #faq .accordion-section .panel-default .panel-title a:after {
-  display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
